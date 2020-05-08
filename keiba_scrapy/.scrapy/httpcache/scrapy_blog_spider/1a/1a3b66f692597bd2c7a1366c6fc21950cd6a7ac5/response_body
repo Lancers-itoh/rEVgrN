@@ -1,0 +1,1744 @@
+<meta charset="UTF-8">
+<!-- block=race_list_sub (cg) -->
+<div class="RaceList_Body RaceList_Top" id="RaceTopRace">
+<div class="RaceList_Box clearfix">
+<dl class="RaceList_DataList">
+<dt class="RaceList_DataHeader">
+<p class="RaceList_DataTitle"><small>2回</small> 東京 <small>3日目</small></p>
+<div class="RaceList_DataDesc">
+
+
+
+</div> <!-- /.RaceList_DataDesc -->
+
+</dt>
+<dd class="RaceList_Data">
+<ul>
+<li class="RaceList_DataItem ">
+<a href="../race/shutuba.html?race_id=202005020301&rf=race_list" class="">
+<!-- <div class="RaceList_Item01"> -->
+<div class="Race_Num"><span>1R</span></div>
+
+
+<!-- </div> --><!-- /.RaceList_Item01 -->
+<div class="RaceList_ItemContent">
+<div class="RaceList_ItemTitle">
+<span class="ItemTitle">3歳未勝利</span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="RaceData">
+
+<span class="RaceList_Itemtime"> </span>
+
+<span class="RaceList_ItemLong Dart">ダ1600m</span>
+
+<span class="RaceList_Itemnumber">15頭 </span>
+<span class="RaceList_ItemSubscribe">
+</span>
+<span class="RaceList_ItemSubscribe">
+<img id="myhorse_202005020301" src="https://cdn.netkeiba.com/img.racev3/common/img/icon/icon_horse.png?2019073001" alt="" width="18" class="disp_none" />
+</span>
+</div><!-- /.RaceData -->
+</div><!-- /.RaceList_Item02 -->
+</a>
+<a href="../race/movie.html?race_id=202005020301&rf=race_list" class="LinkIconRaceMovie" id="movie_202005020301" style="display: none">
+<img  src="https://cdn.netkeiba.com/img.racev3/common/img/icon/icon_movie_01.gif?2019073001">
+</a>
+<!-- <div class="RaceList_Movie_Box">
+<a href=""></a>
+</div> --> <!-- /.RaceList_Movie_Box -->
+</li><li class="RaceList_DataItem ">
+<a href="../race/shutuba.html?race_id=202005020302&rf=race_list" class="">
+<!-- <div class="RaceList_Item01"> -->
+<div class="Race_Num"><span>2R</span></div>
+
+
+<!-- </div> --><!-- /.RaceList_Item01 -->
+<div class="RaceList_ItemContent">
+<div class="RaceList_ItemTitle">
+<span class="ItemTitle">3歳未勝利</span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="RaceData">
+
+<span class="RaceList_Itemtime"> </span>
+
+<span class="RaceList_ItemLong Dart">ダ1400m</span>
+
+<span class="RaceList_Itemnumber">18頭 </span>
+<span class="RaceList_ItemSubscribe">
+</span>
+<span class="RaceList_ItemSubscribe">
+<img id="myhorse_202005020302" src="https://cdn.netkeiba.com/img.racev3/common/img/icon/icon_horse.png?2019073001" alt="" width="18" class="disp_none" />
+</span>
+</div><!-- /.RaceData -->
+</div><!-- /.RaceList_Item02 -->
+</a>
+<a href="../race/movie.html?race_id=202005020302&rf=race_list" class="LinkIconRaceMovie" id="movie_202005020302" style="display: none">
+<img  src="https://cdn.netkeiba.com/img.racev3/common/img/icon/icon_movie_01.gif?2019073001">
+</a>
+<!-- <div class="RaceList_Movie_Box">
+<a href=""></a>
+</div> --> <!-- /.RaceList_Movie_Box -->
+</li><li class="RaceList_DataItem ">
+<a href="../race/shutuba.html?race_id=202005020303&rf=race_list" class="">
+<!-- <div class="RaceList_Item01"> -->
+<div class="Race_Num"><span>3R</span></div>
+
+
+<!-- </div> --><!-- /.RaceList_Item01 -->
+<div class="RaceList_ItemContent">
+<div class="RaceList_ItemTitle">
+<span class="ItemTitle">3歳未勝利</span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="RaceData">
+
+<span class="RaceList_Itemtime"> </span>
+
+<span class="RaceList_ItemLong Dart">ダ2100m</span>
+
+<span class="RaceList_Itemnumber">11頭 </span>
+<span class="RaceList_ItemSubscribe">
+</span>
+<span class="RaceList_ItemSubscribe">
+<img id="myhorse_202005020303" src="https://cdn.netkeiba.com/img.racev3/common/img/icon/icon_horse.png?2019073001" alt="" width="18" class="disp_none" />
+</span>
+</div><!-- /.RaceData -->
+</div><!-- /.RaceList_Item02 -->
+</a>
+<a href="../race/movie.html?race_id=202005020303&rf=race_list" class="LinkIconRaceMovie" id="movie_202005020303" style="display: none">
+<img  src="https://cdn.netkeiba.com/img.racev3/common/img/icon/icon_movie_01.gif?2019073001">
+</a>
+<!-- <div class="RaceList_Movie_Box">
+<a href=""></a>
+</div> --> <!-- /.RaceList_Movie_Box -->
+</li><li class="RaceList_DataItem ">
+<a href="../race/shutuba.html?race_id=202005020304&rf=race_list" class="">
+<!-- <div class="RaceList_Item01"> -->
+<div class="Race_Num"><span>4R</span></div>
+
+
+<!-- </div> --><!-- /.RaceList_Item01 -->
+<div class="RaceList_ItemContent">
+<div class="RaceList_ItemTitle">
+<span class="ItemTitle">3歳未勝利</span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="RaceData">
+
+<span class="RaceList_Itemtime"> </span>
+<span class="RaceList_ItemLong Turf">芝1400m</span>
+
+
+<span class="RaceList_Itemnumber">9頭 </span>
+<span class="RaceList_ItemSubscribe">
+</span>
+<span class="RaceList_ItemSubscribe">
+<img id="myhorse_202005020304" src="https://cdn.netkeiba.com/img.racev3/common/img/icon/icon_horse.png?2019073001" alt="" width="18" class="disp_none" />
+</span>
+</div><!-- /.RaceData -->
+</div><!-- /.RaceList_Item02 -->
+</a>
+<a href="../race/movie.html?race_id=202005020304&rf=race_list" class="LinkIconRaceMovie" id="movie_202005020304" style="display: none">
+<img  src="https://cdn.netkeiba.com/img.racev3/common/img/icon/icon_movie_01.gif?2019073001">
+</a>
+<!-- <div class="RaceList_Movie_Box">
+<a href=""></a>
+</div> --> <!-- /.RaceList_Movie_Box -->
+</li><li class="RaceList_DataItem ">
+<a href="../race/shutuba.html?race_id=202005020305&rf=race_list" class="">
+<!-- <div class="RaceList_Item01"> -->
+<div class="Race_Num"><span>5R</span></div>
+
+
+<!-- </div> --><!-- /.RaceList_Item01 -->
+<div class="RaceList_ItemContent">
+<div class="RaceList_ItemTitle">
+<span class="ItemTitle">3歳未勝利</span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="RaceData">
+
+<span class="RaceList_Itemtime"> </span>
+<span class="RaceList_ItemLong Turf">芝1800m</span>
+
+
+<span class="RaceList_Itemnumber">15頭 </span>
+<span class="RaceList_ItemSubscribe">
+</span>
+<span class="RaceList_ItemSubscribe">
+<img id="myhorse_202005020305" src="https://cdn.netkeiba.com/img.racev3/common/img/icon/icon_horse.png?2019073001" alt="" width="18" class="disp_none" />
+</span>
+</div><!-- /.RaceData -->
+</div><!-- /.RaceList_Item02 -->
+</a>
+<a href="../race/movie.html?race_id=202005020305&rf=race_list" class="LinkIconRaceMovie" id="movie_202005020305" style="display: none">
+<img  src="https://cdn.netkeiba.com/img.racev3/common/img/icon/icon_movie_01.gif?2019073001">
+</a>
+<!-- <div class="RaceList_Movie_Box">
+<a href=""></a>
+</div> --> <!-- /.RaceList_Movie_Box -->
+</li><li class="RaceList_DataItem ">
+<a href="../race/shutuba.html?race_id=202005020306&rf=race_list" class="">
+<!-- <div class="RaceList_Item01"> -->
+<div class="Race_Num"><span>6R</span></div>
+
+
+<!-- </div> --><!-- /.RaceList_Item01 -->
+<div class="RaceList_ItemContent">
+<div class="RaceList_ItemTitle">
+<span class="ItemTitle">3歳1勝クラス</span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="RaceData">
+
+<span class="RaceList_Itemtime"> </span>
+<span class="RaceList_ItemLong Turf">芝1600m</span>
+
+
+<span class="RaceList_Itemnumber">12頭 </span>
+<span class="RaceList_ItemSubscribe">
+</span>
+<span class="RaceList_ItemSubscribe">
+<img id="myhorse_202005020306" src="https://cdn.netkeiba.com/img.racev3/common/img/icon/icon_horse.png?2019073001" alt="" width="18" class="disp_none" />
+</span>
+</div><!-- /.RaceData -->
+</div><!-- /.RaceList_Item02 -->
+</a>
+<a href="../race/movie.html?race_id=202005020306&rf=race_list" class="LinkIconRaceMovie" id="movie_202005020306" style="display: none">
+<img  src="https://cdn.netkeiba.com/img.racev3/common/img/icon/icon_movie_01.gif?2019073001">
+</a>
+<!-- <div class="RaceList_Movie_Box">
+<a href=""></a>
+</div> --> <!-- /.RaceList_Movie_Box -->
+</li><li class="RaceList_DataItem ">
+<a href="../race/shutuba.html?race_id=202005020307&rf=race_list" class="">
+<!-- <div class="RaceList_Item01"> -->
+<div class="Race_Num"><span>7R</span></div>
+
+
+<!-- </div> --><!-- /.RaceList_Item01 -->
+<div class="RaceList_ItemContent">
+<div class="RaceList_ItemTitle">
+<span class="ItemTitle">3歳1勝クラス</span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="RaceData">
+
+<span class="RaceList_Itemtime"> </span>
+
+<span class="RaceList_ItemLong Dart">ダ1400m</span>
+
+<span class="RaceList_Itemnumber">15頭 </span>
+<span class="RaceList_ItemSubscribe">
+</span>
+<span class="RaceList_ItemSubscribe">
+<img id="myhorse_202005020307" src="https://cdn.netkeiba.com/img.racev3/common/img/icon/icon_horse.png?2019073001" alt="" width="18" class="disp_none" />
+</span>
+</div><!-- /.RaceData -->
+</div><!-- /.RaceList_Item02 -->
+</a>
+<a href="../race/movie.html?race_id=202005020307&rf=race_list" class="LinkIconRaceMovie" id="movie_202005020307" style="display: none">
+<img  src="https://cdn.netkeiba.com/img.racev3/common/img/icon/icon_movie_01.gif?2019073001">
+</a>
+<!-- <div class="RaceList_Movie_Box">
+<a href=""></a>
+</div> --> <!-- /.RaceList_Movie_Box -->
+</li><li class="RaceList_DataItem ">
+<a href="../race/shutuba.html?race_id=202005020308&rf=race_list" class="">
+<!-- <div class="RaceList_Item01"> -->
+<div class="Race_Num"><span>8R</span></div>
+
+
+<!-- </div> --><!-- /.RaceList_Item01 -->
+<div class="RaceList_ItemContent">
+<div class="RaceList_ItemTitle">
+<span class="ItemTitle">4歳以上1勝クラス</span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="RaceData">
+
+<span class="RaceList_Itemtime"> </span>
+
+<span class="RaceList_ItemLong Dart">ダ1600m</span>
+
+<span class="RaceList_Itemnumber">13頭 </span>
+<span class="RaceList_ItemSubscribe">
+</span>
+<span class="RaceList_ItemSubscribe">
+<img id="myhorse_202005020308" src="https://cdn.netkeiba.com/img.racev3/common/img/icon/icon_horse.png?2019073001" alt="" width="18" class="disp_none" />
+</span>
+</div><!-- /.RaceData -->
+</div><!-- /.RaceList_Item02 -->
+</a>
+<a href="../race/movie.html?race_id=202005020308&rf=race_list" class="LinkIconRaceMovie" id="movie_202005020308" style="display: none">
+<img  src="https://cdn.netkeiba.com/img.racev3/common/img/icon/icon_movie_01.gif?2019073001">
+</a>
+<!-- <div class="RaceList_Movie_Box">
+<a href=""></a>
+</div> --> <!-- /.RaceList_Movie_Box -->
+</li><li class="RaceList_DataItem ">
+<a href="../race/shutuba.html?race_id=202005020309&rf=race_list" class="">
+<!-- <div class="RaceList_Item01"> -->
+<div class="Race_Num"><span>9R</span></div>
+
+
+<!-- </div> --><!-- /.RaceList_Item01 -->
+<div class="RaceList_ItemContent">
+<div class="RaceList_ItemTitle">
+<span class="ItemTitle">秩父特別</span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="Icon_GradeType Icon_GradeType17 Icon_GradePos01"></span>
+
+</div>
+<div class="RaceData">
+
+<span class="RaceList_Itemtime"> </span>
+<span class="RaceList_ItemLong Turf">芝1600m</span>
+
+
+<span class="RaceList_Itemnumber">10頭 </span>
+<span class="RaceList_ItemSubscribe">
+</span>
+<span class="RaceList_ItemSubscribe">
+<img id="myhorse_202005020309" src="https://cdn.netkeiba.com/img.racev3/common/img/icon/icon_horse.png?2019073001" alt="" width="18" class="disp_none" />
+</span>
+</div><!-- /.RaceData -->
+</div><!-- /.RaceList_Item02 -->
+</a>
+<a href="../race/movie.html?race_id=202005020309&rf=race_list" class="LinkIconRaceMovie" id="movie_202005020309" style="display: none">
+<img  src="https://cdn.netkeiba.com/img.racev3/common/img/icon/icon_movie_01.gif?2019073001">
+</a>
+<!-- <div class="RaceList_Movie_Box">
+<a href=""></a>
+</div> --> <!-- /.RaceList_Movie_Box -->
+</li><li class="RaceList_DataItem ">
+<a href="../race/shutuba.html?race_id=202005020310&rf=race_list" class="">
+<!-- <div class="RaceList_Item01"> -->
+<div class="Race_Num"><span>10R</span></div>
+
+
+<!-- </div> --><!-- /.RaceList_Item01 -->
+<div class="RaceList_ItemContent">
+<div class="RaceList_ItemTitle">
+<span class="ItemTitle">春光S</span>
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="Icon_GradeType Icon_GradeType16 Icon_GradePos01"></span>
+
+
+</div>
+<div class="RaceData">
+
+<span class="RaceList_Itemtime"> </span>
+
+<span class="RaceList_ItemLong Dart">ダ2100m</span>
+
+<span class="RaceList_Itemnumber">12頭 </span>
+<span class="RaceList_ItemSubscribe">
+</span>
+<span class="RaceList_ItemSubscribe">
+<img id="myhorse_202005020310" src="https://cdn.netkeiba.com/img.racev3/common/img/icon/icon_horse.png?2019073001" alt="" width="18" class="disp_none" />
+</span>
+</div><!-- /.RaceData -->
+</div><!-- /.RaceList_Item02 -->
+</a>
+<a href="../race/movie.html?race_id=202005020310&rf=race_list" class="LinkIconRaceMovie" id="movie_202005020310" style="display: none">
+<img  src="https://cdn.netkeiba.com/img.racev3/common/img/icon/icon_movie_01.gif?2019073001">
+</a>
+<!-- <div class="RaceList_Movie_Box">
+<a href=""></a>
+</div> --> <!-- /.RaceList_Movie_Box -->
+</li><li class="RaceList_DataItem bg_jyoken">
+<a href="../race/shutuba.html?race_id=202005020311&rf=race_list" class="">
+<!-- <div class="RaceList_Item01"> -->
+<div class="Race_Num"><span>11R</span></div>
+
+
+<!-- </div> --><!-- /.RaceList_Item01 -->
+<div class="RaceList_ItemContent">
+<div class="RaceList_ItemTitle">
+<span class="ItemTitle">青葉賞</span>
+
+<span class="Icon_GradeType Icon_GradeType2 Icon_GradePos01"></span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="RaceData">
+
+<span class="RaceList_Itemtime">15:45 </span>
+<span class="RaceList_ItemLong Turf">芝2400m</span>
+
+
+<span class="RaceList_Itemnumber">18頭 </span>
+<span class="RaceList_ItemSubscribe">
+</span>
+<span class="RaceList_ItemSubscribe">
+<img id="myhorse_202005020311" src="https://cdn.netkeiba.com/img.racev3/common/img/icon/icon_horse.png?2019073001" alt="" width="18" class="disp_none" />
+</span>
+</div><!-- /.RaceData -->
+</div><!-- /.RaceList_Item02 -->
+</a>
+<a href="../race/movie.html?race_id=202005020311&rf=race_list" class="LinkIconRaceMovie" id="movie_202005020311" style="display: none">
+<img  src="https://cdn.netkeiba.com/img.racev3/common/img/icon/icon_movie_01.gif?2019073001">
+</a>
+<!-- <div class="RaceList_Movie_Box">
+<a href=""></a>
+</div> --> <!-- /.RaceList_Movie_Box -->
+</li><li class="RaceList_DataItem ">
+<a href="../race/shutuba.html?race_id=202005020312&rf=race_list" class="">
+<!-- <div class="RaceList_Item01"> -->
+<div class="Race_Num"><span>12R</span></div>
+
+
+<!-- </div> --><!-- /.RaceList_Item01 -->
+<div class="RaceList_ItemContent">
+<div class="RaceList_ItemTitle">
+<span class="ItemTitle">4歳以上2勝クラス</span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="RaceData">
+
+<span class="RaceList_Itemtime"> </span>
+
+<span class="RaceList_ItemLong Dart">ダ1300m</span>
+
+<span class="RaceList_Itemnumber">22頭 </span>
+<span class="RaceList_ItemSubscribe">
+</span>
+<span class="RaceList_ItemSubscribe">
+<img id="myhorse_202005020312" src="https://cdn.netkeiba.com/img.racev3/common/img/icon/icon_horse.png?2019073001" alt="" width="18" class="disp_none" />
+</span>
+</div><!-- /.RaceData -->
+</div><!-- /.RaceList_Item02 -->
+</a>
+<a href="../race/movie.html?race_id=202005020312&rf=race_list" class="LinkIconRaceMovie" id="movie_202005020312" style="display: none">
+<img  src="https://cdn.netkeiba.com/img.racev3/common/img/icon/icon_movie_01.gif?2019073001">
+</a>
+<!-- <div class="RaceList_Movie_Box">
+<a href=""></a>
+</div> --> <!-- /.RaceList_Movie_Box -->
+</li>
+</ul>
+</dd>
+</dl><dl class="RaceList_DataList">
+<dt class="RaceList_DataHeader">
+<p class="RaceList_DataTitle"><small>3回</small> 京都 <small>3日目</small></p>
+<div class="RaceList_DataDesc">
+
+
+
+</div> <!-- /.RaceList_DataDesc -->
+
+</dt>
+<dd class="RaceList_Data">
+<ul>
+<li class="RaceList_DataItem ">
+<a href="../race/shutuba.html?race_id=202008030301&rf=race_list" class="">
+<!-- <div class="RaceList_Item01"> -->
+<div class="Race_Num"><span>1R</span></div>
+
+
+<!-- </div> --><!-- /.RaceList_Item01 -->
+<div class="RaceList_ItemContent">
+<div class="RaceList_ItemTitle">
+<span class="ItemTitle">3歳未勝利</span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="RaceData">
+
+<span class="RaceList_Itemtime"> </span>
+
+<span class="RaceList_ItemLong Dart">ダ1400m</span>
+
+<span class="RaceList_Itemnumber">31頭 </span>
+<span class="RaceList_ItemSubscribe">
+</span>
+<span class="RaceList_ItemSubscribe">
+<img id="myhorse_202008030301" src="https://cdn.netkeiba.com/img.racev3/common/img/icon/icon_horse.png?2019073001" alt="" width="18" class="disp_none" />
+</span>
+</div><!-- /.RaceData -->
+</div><!-- /.RaceList_Item02 -->
+</a>
+<a href="../race/movie.html?race_id=202008030301&rf=race_list" class="LinkIconRaceMovie" id="movie_202008030301" style="display: none">
+<img  src="https://cdn.netkeiba.com/img.racev3/common/img/icon/icon_movie_01.gif?2019073001">
+</a>
+<!-- <div class="RaceList_Movie_Box">
+<a href=""></a>
+</div> --> <!-- /.RaceList_Movie_Box -->
+</li><li class="RaceList_DataItem ">
+<a href="../race/shutuba.html?race_id=202008030302&rf=race_list" class="">
+<!-- <div class="RaceList_Item01"> -->
+<div class="Race_Num"><span>2R</span></div>
+
+
+<!-- </div> --><!-- /.RaceList_Item01 -->
+<div class="RaceList_ItemContent">
+<div class="RaceList_ItemTitle">
+<span class="ItemTitle">3歳未勝利</span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="RaceData">
+
+<span class="RaceList_Itemtime"> </span>
+
+<span class="RaceList_ItemLong Dart">ダ1800m</span>
+
+<span class="RaceList_Itemnumber">25頭 </span>
+<span class="RaceList_ItemSubscribe">
+</span>
+<span class="RaceList_ItemSubscribe">
+<img id="myhorse_202008030302" src="https://cdn.netkeiba.com/img.racev3/common/img/icon/icon_horse.png?2019073001" alt="" width="18" class="disp_none" />
+</span>
+</div><!-- /.RaceData -->
+</div><!-- /.RaceList_Item02 -->
+</a>
+<a href="../race/movie.html?race_id=202008030302&rf=race_list" class="LinkIconRaceMovie" id="movie_202008030302" style="display: none">
+<img  src="https://cdn.netkeiba.com/img.racev3/common/img/icon/icon_movie_01.gif?2019073001">
+</a>
+<!-- <div class="RaceList_Movie_Box">
+<a href=""></a>
+</div> --> <!-- /.RaceList_Movie_Box -->
+</li><li class="RaceList_DataItem ">
+<a href="../race/shutuba.html?race_id=202008030303&rf=race_list" class="">
+<!-- <div class="RaceList_Item01"> -->
+<div class="Race_Num"><span>3R</span></div>
+
+
+<!-- </div> --><!-- /.RaceList_Item01 -->
+<div class="RaceList_ItemContent">
+<div class="RaceList_ItemTitle">
+<span class="ItemTitle">3歳未勝利</span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="RaceData">
+
+<span class="RaceList_Itemtime"> </span>
+<span class="RaceList_ItemLong Turf">芝1400m</span>
+
+
+<span class="RaceList_Itemnumber">21頭 </span>
+<span class="RaceList_ItemSubscribe">
+</span>
+<span class="RaceList_ItemSubscribe">
+<img id="myhorse_202008030303" src="https://cdn.netkeiba.com/img.racev3/common/img/icon/icon_horse.png?2019073001" alt="" width="18" class="disp_none" />
+</span>
+</div><!-- /.RaceData -->
+</div><!-- /.RaceList_Item02 -->
+</a>
+<a href="../race/movie.html?race_id=202008030303&rf=race_list" class="LinkIconRaceMovie" id="movie_202008030303" style="display: none">
+<img  src="https://cdn.netkeiba.com/img.racev3/common/img/icon/icon_movie_01.gif?2019073001">
+</a>
+<!-- <div class="RaceList_Movie_Box">
+<a href=""></a>
+</div> --> <!-- /.RaceList_Movie_Box -->
+</li><li class="RaceList_DataItem ">
+<a href="../race/shutuba.html?race_id=202008030304&rf=race_list" class="">
+<!-- <div class="RaceList_Item01"> -->
+<div class="Race_Num"><span>4R</span></div>
+
+
+<!-- </div> --><!-- /.RaceList_Item01 -->
+<div class="RaceList_ItemContent">
+<div class="RaceList_ItemTitle">
+<span class="ItemTitle">3歳未勝利</span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="RaceData">
+
+<span class="RaceList_Itemtime"> </span>
+<span class="RaceList_ItemLong Turf">芝1800m</span>
+
+
+<span class="RaceList_Itemnumber">4頭 </span>
+<span class="RaceList_ItemSubscribe">
+</span>
+<span class="RaceList_ItemSubscribe">
+<img id="myhorse_202008030304" src="https://cdn.netkeiba.com/img.racev3/common/img/icon/icon_horse.png?2019073001" alt="" width="18" class="disp_none" />
+</span>
+</div><!-- /.RaceData -->
+</div><!-- /.RaceList_Item02 -->
+</a>
+<a href="../race/movie.html?race_id=202008030304&rf=race_list" class="LinkIconRaceMovie" id="movie_202008030304" style="display: none">
+<img  src="https://cdn.netkeiba.com/img.racev3/common/img/icon/icon_movie_01.gif?2019073001">
+</a>
+<!-- <div class="RaceList_Movie_Box">
+<a href=""></a>
+</div> --> <!-- /.RaceList_Movie_Box -->
+</li><li class="RaceList_DataItem ">
+<a href="../race/shutuba.html?race_id=202008030305&rf=race_list" class="">
+<!-- <div class="RaceList_Item01"> -->
+<div class="Race_Num"><span>5R</span></div>
+
+
+<!-- </div> --><!-- /.RaceList_Item01 -->
+<div class="RaceList_ItemContent">
+<div class="RaceList_ItemTitle">
+<span class="ItemTitle">3歳未勝利</span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="RaceData">
+
+<span class="RaceList_Itemtime"> </span>
+<span class="RaceList_ItemLong Turf">芝2400m</span>
+
+
+<span class="RaceList_Itemnumber">15頭 </span>
+<span class="RaceList_ItemSubscribe">
+</span>
+<span class="RaceList_ItemSubscribe">
+<img id="myhorse_202008030305" src="https://cdn.netkeiba.com/img.racev3/common/img/icon/icon_horse.png?2019073001" alt="" width="18" class="disp_none" />
+</span>
+</div><!-- /.RaceData -->
+</div><!-- /.RaceList_Item02 -->
+</a>
+<a href="../race/movie.html?race_id=202008030305&rf=race_list" class="LinkIconRaceMovie" id="movie_202008030305" style="display: none">
+<img  src="https://cdn.netkeiba.com/img.racev3/common/img/icon/icon_movie_01.gif?2019073001">
+</a>
+<!-- <div class="RaceList_Movie_Box">
+<a href=""></a>
+</div> --> <!-- /.RaceList_Movie_Box -->
+</li><li class="RaceList_DataItem ">
+<a href="../race/shutuba.html?race_id=202008030306&rf=race_list" class="">
+<!-- <div class="RaceList_Item01"> -->
+<div class="Race_Num"><span>6R</span></div>
+
+
+<!-- </div> --><!-- /.RaceList_Item01 -->
+<div class="RaceList_ItemContent">
+<div class="RaceList_ItemTitle">
+<span class="ItemTitle">3歳1勝クラス</span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="RaceData">
+
+<span class="RaceList_Itemtime"> </span>
+
+<span class="RaceList_ItemLong Dart">ダ1800m</span>
+
+<span class="RaceList_Itemnumber">20頭 </span>
+<span class="RaceList_ItemSubscribe">
+</span>
+<span class="RaceList_ItemSubscribe">
+<img id="myhorse_202008030306" src="https://cdn.netkeiba.com/img.racev3/common/img/icon/icon_horse.png?2019073001" alt="" width="18" class="disp_none" />
+</span>
+</div><!-- /.RaceData -->
+</div><!-- /.RaceList_Item02 -->
+</a>
+<a href="../race/movie.html?race_id=202008030306&rf=race_list" class="LinkIconRaceMovie" id="movie_202008030306" style="display: none">
+<img  src="https://cdn.netkeiba.com/img.racev3/common/img/icon/icon_movie_01.gif?2019073001">
+</a>
+<!-- <div class="RaceList_Movie_Box">
+<a href=""></a>
+</div> --> <!-- /.RaceList_Movie_Box -->
+</li><li class="RaceList_DataItem ">
+<a href="../race/shutuba.html?race_id=202008030307&rf=race_list" class="">
+<!-- <div class="RaceList_Item01"> -->
+<div class="Race_Num"><span>7R</span></div>
+
+
+<!-- </div> --><!-- /.RaceList_Item01 -->
+<div class="RaceList_ItemContent">
+<div class="RaceList_ItemTitle">
+<span class="ItemTitle">4歳以上1勝クラス</span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="RaceData">
+
+<span class="RaceList_Itemtime"> </span>
+<span class="RaceList_ItemLong Turf">芝1600m</span>
+
+
+<span class="RaceList_Itemnumber">14頭 </span>
+<span class="RaceList_ItemSubscribe">
+</span>
+<span class="RaceList_ItemSubscribe">
+<img id="myhorse_202008030307" src="https://cdn.netkeiba.com/img.racev3/common/img/icon/icon_horse.png?2019073001" alt="" width="18" class="disp_none" />
+</span>
+</div><!-- /.RaceData -->
+</div><!-- /.RaceList_Item02 -->
+</a>
+<a href="../race/movie.html?race_id=202008030307&rf=race_list" class="LinkIconRaceMovie" id="movie_202008030307" style="display: none">
+<img  src="https://cdn.netkeiba.com/img.racev3/common/img/icon/icon_movie_01.gif?2019073001">
+</a>
+<!-- <div class="RaceList_Movie_Box">
+<a href=""></a>
+</div> --> <!-- /.RaceList_Movie_Box -->
+</li><li class="RaceList_DataItem ">
+<a href="../race/shutuba.html?race_id=202008030308&rf=race_list" class="">
+<!-- <div class="RaceList_Item01"> -->
+<div class="Race_Num"><span>8R</span></div>
+
+
+<!-- </div> --><!-- /.RaceList_Item01 -->
+<div class="RaceList_ItemContent">
+<div class="RaceList_ItemTitle">
+<span class="ItemTitle">4歳以上2勝クラス</span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="RaceData">
+
+<span class="RaceList_Itemtime"> </span>
+
+<span class="RaceList_ItemLong Dart">ダ1200m</span>
+
+<span class="RaceList_Itemnumber">21頭 </span>
+<span class="RaceList_ItemSubscribe">
+</span>
+<span class="RaceList_ItemSubscribe">
+<img id="myhorse_202008030308" src="https://cdn.netkeiba.com/img.racev3/common/img/icon/icon_horse.png?2019073001" alt="" width="18" class="disp_none" />
+</span>
+</div><!-- /.RaceData -->
+</div><!-- /.RaceList_Item02 -->
+</a>
+<a href="../race/movie.html?race_id=202008030308&rf=race_list" class="LinkIconRaceMovie" id="movie_202008030308" style="display: none">
+<img  src="https://cdn.netkeiba.com/img.racev3/common/img/icon/icon_movie_01.gif?2019073001">
+</a>
+<!-- <div class="RaceList_Movie_Box">
+<a href=""></a>
+</div> --> <!-- /.RaceList_Movie_Box -->
+</li><li class="RaceList_DataItem ">
+<a href="../race/shutuba.html?race_id=202008030309&rf=race_list" class="">
+<!-- <div class="RaceList_Item01"> -->
+<div class="Race_Num"><span>9R</span></div>
+
+
+<!-- </div> --><!-- /.RaceList_Item01 -->
+<div class="RaceList_ItemContent">
+<div class="RaceList_ItemTitle">
+<span class="ItemTitle">矢車賞</span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="Icon_GradeType Icon_GradeType18 Icon_GradePos01"></span>
+</div>
+<div class="RaceData">
+
+<span class="RaceList_Itemtime"> </span>
+<span class="RaceList_ItemLong Turf">芝2200m</span>
+
+
+<span class="RaceList_Itemnumber">11頭 </span>
+<span class="RaceList_ItemSubscribe">
+</span>
+<span class="RaceList_ItemSubscribe">
+<img id="myhorse_202008030309" src="https://cdn.netkeiba.com/img.racev3/common/img/icon/icon_horse.png?2019073001" alt="" width="18" class="disp_none" />
+</span>
+</div><!-- /.RaceData -->
+</div><!-- /.RaceList_Item02 -->
+</a>
+<a href="../race/movie.html?race_id=202008030309&rf=race_list" class="LinkIconRaceMovie" id="movie_202008030309" style="display: none">
+<img  src="https://cdn.netkeiba.com/img.racev3/common/img/icon/icon_movie_01.gif?2019073001">
+</a>
+<!-- <div class="RaceList_Movie_Box">
+<a href=""></a>
+</div> --> <!-- /.RaceList_Movie_Box -->
+</li><li class="RaceList_DataItem ">
+<a href="../race/shutuba.html?race_id=202008030310&rf=race_list" class="">
+<!-- <div class="RaceList_Item01"> -->
+<div class="Race_Num"><span>10R</span></div>
+
+
+<!-- </div> --><!-- /.RaceList_Item01 -->
+<div class="RaceList_ItemContent">
+<div class="RaceList_ItemTitle">
+<span class="ItemTitle">下鴨S</span>
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="Icon_GradeType Icon_GradeType16 Icon_GradePos01"></span>
+
+
+</div>
+<div class="RaceData">
+
+<span class="RaceList_Itemtime"> </span>
+<span class="RaceList_ItemLong Turf">芝2000m</span>
+
+
+<span class="RaceList_Itemnumber">13頭 </span>
+<span class="RaceList_ItemSubscribe">
+</span>
+<span class="RaceList_ItemSubscribe">
+<img id="myhorse_202008030310" src="https://cdn.netkeiba.com/img.racev3/common/img/icon/icon_horse.png?2019073001" alt="" width="18" class="disp_none" />
+</span>
+</div><!-- /.RaceData -->
+</div><!-- /.RaceList_Item02 -->
+</a>
+<a href="../race/movie.html?race_id=202008030310&rf=race_list" class="LinkIconRaceMovie" id="movie_202008030310" style="display: none">
+<img  src="https://cdn.netkeiba.com/img.racev3/common/img/icon/icon_movie_01.gif?2019073001">
+</a>
+<!-- <div class="RaceList_Movie_Box">
+<a href=""></a>
+</div> --> <!-- /.RaceList_Movie_Box -->
+</li><li class="RaceList_DataItem bg_jyoken">
+<a href="../race/shutuba.html?race_id=202008030311&rf=race_list" class="">
+<!-- <div class="RaceList_Item01"> -->
+<div class="Race_Num"><span>11R</span></div>
+
+
+<!-- </div> --><!-- /.RaceList_Item01 -->
+<div class="RaceList_ItemContent">
+<div class="RaceList_ItemTitle">
+<span class="ItemTitle">天王山S</span>
+
+
+
+
+
+
+
+
+<span class="Icon_GradeType Icon_GradeType5 Icon_GradePos01"></span>
+
+
+
+
+
+
+</div>
+<div class="RaceData">
+
+<span class="RaceList_Itemtime"> </span>
+
+<span class="RaceList_ItemLong Dart">ダ1200m</span>
+
+<span class="RaceList_Itemnumber">16頭 </span>
+<span class="RaceList_ItemSubscribe">
+</span>
+<span class="RaceList_ItemSubscribe">
+<img id="myhorse_202008030311" src="https://cdn.netkeiba.com/img.racev3/common/img/icon/icon_horse.png?2019073001" alt="" width="18" class="disp_none" />
+</span>
+</div><!-- /.RaceData -->
+</div><!-- /.RaceList_Item02 -->
+</a>
+<a href="../race/movie.html?race_id=202008030311&rf=race_list" class="LinkIconRaceMovie" id="movie_202008030311" style="display: none">
+<img  src="https://cdn.netkeiba.com/img.racev3/common/img/icon/icon_movie_01.gif?2019073001">
+</a>
+<!-- <div class="RaceList_Movie_Box">
+<a href=""></a>
+</div> --> <!-- /.RaceList_Movie_Box -->
+</li><li class="RaceList_DataItem ">
+<a href="../race/shutuba.html?race_id=202008030312&rf=race_list" class="">
+<!-- <div class="RaceList_Item01"> -->
+<div class="Race_Num"><span>12R</span></div>
+
+
+<!-- </div> --><!-- /.RaceList_Item01 -->
+<div class="RaceList_ItemContent">
+<div class="RaceList_ItemTitle">
+<span class="ItemTitle">4歳以上2勝クラス</span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="RaceData">
+
+<span class="RaceList_Itemtime"> </span>
+
+<span class="RaceList_ItemLong Dart">ダ1800m</span>
+
+<span class="RaceList_Itemnumber">26頭 </span>
+<span class="RaceList_ItemSubscribe">
+</span>
+<span class="RaceList_ItemSubscribe">
+<img id="myhorse_202008030312" src="https://cdn.netkeiba.com/img.racev3/common/img/icon/icon_horse.png?2019073001" alt="" width="18" class="disp_none" />
+</span>
+</div><!-- /.RaceData -->
+</div><!-- /.RaceList_Item02 -->
+</a>
+<a href="../race/movie.html?race_id=202008030312&rf=race_list" class="LinkIconRaceMovie" id="movie_202008030312" style="display: none">
+<img  src="https://cdn.netkeiba.com/img.racev3/common/img/icon/icon_movie_01.gif?2019073001">
+</a>
+<!-- <div class="RaceList_Movie_Box">
+<a href=""></a>
+</div> --> <!-- /.RaceList_Movie_Box -->
+</li>
+</ul>
+</dd>
+</dl><dl class="RaceList_DataList">
+<dt class="RaceList_DataHeader">
+<p class="RaceList_DataTitle"><small>1回</small> 福島 <small>7日目</small></p>
+<div class="RaceList_DataDesc">
+
+
+
+</div> <!-- /.RaceList_DataDesc -->
+
+</dt>
+<dd class="RaceList_Data">
+<ul>
+<li class="RaceList_DataItem ">
+<a href="../race/shutuba.html?race_id=202003010701&rf=race_list" class="">
+<!-- <div class="RaceList_Item01"> -->
+<div class="Race_Num"><span>1R</span></div>
+
+
+<!-- </div> --><!-- /.RaceList_Item01 -->
+<div class="RaceList_ItemContent">
+<div class="RaceList_ItemTitle">
+<span class="ItemTitle">3歳未勝利</span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="RaceData">
+
+<span class="RaceList_Itemtime"> </span>
+
+<span class="RaceList_ItemLong Dart">ダ1150m</span>
+
+<span class="RaceList_Itemnumber">16頭 </span>
+<span class="RaceList_ItemSubscribe">
+</span>
+<span class="RaceList_ItemSubscribe">
+<img id="myhorse_202003010701" src="https://cdn.netkeiba.com/img.racev3/common/img/icon/icon_horse.png?2019073001" alt="" width="18" class="disp_none" />
+</span>
+</div><!-- /.RaceData -->
+</div><!-- /.RaceList_Item02 -->
+</a>
+<a href="../race/movie.html?race_id=202003010701&rf=race_list" class="LinkIconRaceMovie" id="movie_202003010701" style="display: none">
+<img  src="https://cdn.netkeiba.com/img.racev3/common/img/icon/icon_movie_01.gif?2019073001">
+</a>
+<!-- <div class="RaceList_Movie_Box">
+<a href=""></a>
+</div> --> <!-- /.RaceList_Movie_Box -->
+</li><li class="RaceList_DataItem ">
+<a href="../race/shutuba.html?race_id=202003010702&rf=race_list" class="">
+<!-- <div class="RaceList_Item01"> -->
+<div class="Race_Num"><span>2R</span></div>
+
+
+<!-- </div> --><!-- /.RaceList_Item01 -->
+<div class="RaceList_ItemContent">
+<div class="RaceList_ItemTitle">
+<span class="ItemTitle">3歳未勝利</span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="RaceData">
+
+<span class="RaceList_Itemtime"> </span>
+<span class="RaceList_ItemLong Turf">芝1200m</span>
+
+
+<span class="RaceList_Itemnumber">16頭 </span>
+<span class="RaceList_ItemSubscribe">
+</span>
+<span class="RaceList_ItemSubscribe">
+<img id="myhorse_202003010702" src="https://cdn.netkeiba.com/img.racev3/common/img/icon/icon_horse.png?2019073001" alt="" width="18" class="disp_none" />
+</span>
+</div><!-- /.RaceData -->
+</div><!-- /.RaceList_Item02 -->
+</a>
+<a href="../race/movie.html?race_id=202003010702&rf=race_list" class="LinkIconRaceMovie" id="movie_202003010702" style="display: none">
+<img  src="https://cdn.netkeiba.com/img.racev3/common/img/icon/icon_movie_01.gif?2019073001">
+</a>
+<!-- <div class="RaceList_Movie_Box">
+<a href=""></a>
+</div> --> <!-- /.RaceList_Movie_Box -->
+</li><li class="RaceList_DataItem ">
+<a href="../race/shutuba.html?race_id=202003010703&rf=race_list" class="">
+<!-- <div class="RaceList_Item01"> -->
+<div class="Race_Num"><span>3R</span></div>
+
+
+<!-- </div> --><!-- /.RaceList_Item01 -->
+<div class="RaceList_ItemContent">
+<div class="RaceList_ItemTitle">
+<span class="ItemTitle">3歳未勝利</span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="RaceData">
+
+<span class="RaceList_Itemtime"> </span>
+
+<span class="RaceList_ItemLong Dart">ダ1700m</span>
+
+<span class="RaceList_Itemnumber">15頭 </span>
+<span class="RaceList_ItemSubscribe">
+</span>
+<span class="RaceList_ItemSubscribe">
+<img id="myhorse_202003010703" src="https://cdn.netkeiba.com/img.racev3/common/img/icon/icon_horse.png?2019073001" alt="" width="18" class="disp_none" />
+</span>
+</div><!-- /.RaceData -->
+</div><!-- /.RaceList_Item02 -->
+</a>
+<a href="../race/movie.html?race_id=202003010703&rf=race_list" class="LinkIconRaceMovie" id="movie_202003010703" style="display: none">
+<img  src="https://cdn.netkeiba.com/img.racev3/common/img/icon/icon_movie_01.gif?2019073001">
+</a>
+<!-- <div class="RaceList_Movie_Box">
+<a href=""></a>
+</div> --> <!-- /.RaceList_Movie_Box -->
+</li><li class="RaceList_DataItem ">
+<a href="../race/shutuba.html?race_id=202003010704&rf=race_list" class="">
+<!-- <div class="RaceList_Item01"> -->
+<div class="Race_Num"><span>4R</span></div>
+
+
+<!-- </div> --><!-- /.RaceList_Item01 -->
+<div class="RaceList_ItemContent">
+<div class="RaceList_ItemTitle">
+<span class="ItemTitle">4歳以上障害未勝利</span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="RaceData">
+
+<span class="RaceList_Itemtime"> </span>
+<span class="RaceList_ItemLong Turf">芝2770m</span>
+
+
+<span class="RaceList_Itemnumber">14頭 </span>
+<span class="RaceList_ItemSubscribe">
+</span>
+<span class="RaceList_ItemSubscribe">
+<img id="myhorse_202003010704" src="https://cdn.netkeiba.com/img.racev3/common/img/icon/icon_horse.png?2019073001" alt="" width="18" class="disp_none" />
+</span>
+</div><!-- /.RaceData -->
+</div><!-- /.RaceList_Item02 -->
+</a>
+<a href="../race/movie.html?race_id=202003010704&rf=race_list" class="LinkIconRaceMovie" id="movie_202003010704" style="display: none">
+<img  src="https://cdn.netkeiba.com/img.racev3/common/img/icon/icon_movie_01.gif?2019073001">
+</a>
+<!-- <div class="RaceList_Movie_Box">
+<a href=""></a>
+</div> --> <!-- /.RaceList_Movie_Box -->
+</li><li class="RaceList_DataItem ">
+<a href="../race/shutuba.html?race_id=202003010705&rf=race_list" class="">
+<!-- <div class="RaceList_Item01"> -->
+<div class="Race_Num"><span>5R</span></div>
+
+
+<!-- </div> --><!-- /.RaceList_Item01 -->
+<div class="RaceList_ItemContent">
+<div class="RaceList_ItemTitle">
+<span class="ItemTitle">4歳以上障害OP</span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="RaceData">
+
+<span class="RaceList_Itemtime"> </span>
+<span class="RaceList_ItemLong Turf">芝2770m</span>
+
+
+<span class="RaceList_Itemnumber">16頭 </span>
+<span class="RaceList_ItemSubscribe">
+</span>
+<span class="RaceList_ItemSubscribe">
+<img id="myhorse_202003010705" src="https://cdn.netkeiba.com/img.racev3/common/img/icon/icon_horse.png?2019073001" alt="" width="18" class="disp_none" />
+</span>
+</div><!-- /.RaceData -->
+</div><!-- /.RaceList_Item02 -->
+</a>
+<a href="../race/movie.html?race_id=202003010705&rf=race_list" class="LinkIconRaceMovie" id="movie_202003010705" style="display: none">
+<img  src="https://cdn.netkeiba.com/img.racev3/common/img/icon/icon_movie_01.gif?2019073001">
+</a>
+<!-- <div class="RaceList_Movie_Box">
+<a href=""></a>
+</div> --> <!-- /.RaceList_Movie_Box -->
+</li><li class="RaceList_DataItem ">
+<a href="../race/shutuba.html?race_id=202003010706&rf=race_list" class="">
+<!-- <div class="RaceList_Item01"> -->
+<div class="Race_Num"><span>6R</span></div>
+
+
+<!-- </div> --><!-- /.RaceList_Item01 -->
+<div class="RaceList_ItemContent">
+<div class="RaceList_ItemTitle">
+<span class="ItemTitle">3歳未勝利</span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="RaceData">
+
+<span class="RaceList_Itemtime"> </span>
+
+<span class="RaceList_ItemLong Dart">ダ1700m</span>
+
+<span class="RaceList_Itemnumber">22頭 </span>
+<span class="RaceList_ItemSubscribe">
+</span>
+<span class="RaceList_ItemSubscribe">
+<img id="myhorse_202003010706" src="https://cdn.netkeiba.com/img.racev3/common/img/icon/icon_horse.png?2019073001" alt="" width="18" class="disp_none" />
+</span>
+</div><!-- /.RaceData -->
+</div><!-- /.RaceList_Item02 -->
+</a>
+<a href="../race/movie.html?race_id=202003010706&rf=race_list" class="LinkIconRaceMovie" id="movie_202003010706" style="display: none">
+<img  src="https://cdn.netkeiba.com/img.racev3/common/img/icon/icon_movie_01.gif?2019073001">
+</a>
+<!-- <div class="RaceList_Movie_Box">
+<a href=""></a>
+</div> --> <!-- /.RaceList_Movie_Box -->
+</li><li class="RaceList_DataItem ">
+<a href="../race/shutuba.html?race_id=202003010707&rf=race_list" class="">
+<!-- <div class="RaceList_Item01"> -->
+<div class="Race_Num"><span>7R</span></div>
+
+
+<!-- </div> --><!-- /.RaceList_Item01 -->
+<div class="RaceList_ItemContent">
+<div class="RaceList_ItemTitle">
+<span class="ItemTitle">4歳以上1勝クラス</span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="RaceData">
+
+<span class="RaceList_Itemtime"> </span>
+<span class="RaceList_ItemLong Turf">芝1800m</span>
+
+
+<span class="RaceList_Itemnumber">7頭 </span>
+<span class="RaceList_ItemSubscribe">
+</span>
+<span class="RaceList_ItemSubscribe">
+<img id="myhorse_202003010707" src="https://cdn.netkeiba.com/img.racev3/common/img/icon/icon_horse.png?2019073001" alt="" width="18" class="disp_none" />
+</span>
+</div><!-- /.RaceData -->
+</div><!-- /.RaceList_Item02 -->
+</a>
+<a href="../race/movie.html?race_id=202003010707&rf=race_list" class="LinkIconRaceMovie" id="movie_202003010707" style="display: none">
+<img  src="https://cdn.netkeiba.com/img.racev3/common/img/icon/icon_movie_01.gif?2019073001">
+</a>
+<!-- <div class="RaceList_Movie_Box">
+<a href=""></a>
+</div> --> <!-- /.RaceList_Movie_Box -->
+</li><li class="RaceList_DataItem ">
+<a href="../race/shutuba.html?race_id=202003010708&rf=race_list" class="">
+<!-- <div class="RaceList_Item01"> -->
+<div class="Race_Num"><span>8R</span></div>
+
+
+<!-- </div> --><!-- /.RaceList_Item01 -->
+<div class="RaceList_ItemContent">
+<div class="RaceList_ItemTitle">
+<span class="ItemTitle">4歳以上1勝クラス</span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="RaceData">
+
+<span class="RaceList_Itemtime"> </span>
+
+<span class="RaceList_ItemLong Dart">ダ1700m</span>
+
+<span class="RaceList_Itemnumber">11頭 </span>
+<span class="RaceList_ItemSubscribe">
+</span>
+<span class="RaceList_ItemSubscribe">
+<img id="myhorse_202003010708" src="https://cdn.netkeiba.com/img.racev3/common/img/icon/icon_horse.png?2019073001" alt="" width="18" class="disp_none" />
+</span>
+</div><!-- /.RaceData -->
+</div><!-- /.RaceList_Item02 -->
+</a>
+<a href="../race/movie.html?race_id=202003010708&rf=race_list" class="LinkIconRaceMovie" id="movie_202003010708" style="display: none">
+<img  src="https://cdn.netkeiba.com/img.racev3/common/img/icon/icon_movie_01.gif?2019073001">
+</a>
+<!-- <div class="RaceList_Movie_Box">
+<a href=""></a>
+</div> --> <!-- /.RaceList_Movie_Box -->
+</li><li class="RaceList_DataItem ">
+<a href="../race/shutuba.html?race_id=202003010709&rf=race_list" class="">
+<!-- <div class="RaceList_Item01"> -->
+<div class="Race_Num"><span>9R</span></div>
+
+
+<!-- </div> --><!-- /.RaceList_Item01 -->
+<div class="RaceList_ItemContent">
+<div class="RaceList_ItemTitle">
+<span class="ItemTitle">4歳以上1勝クラス</span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="RaceData">
+
+<span class="RaceList_Itemtime"> </span>
+
+<span class="RaceList_ItemLong Dart">ダ1150m</span>
+
+<span class="RaceList_Itemnumber">11頭 </span>
+<span class="RaceList_ItemSubscribe">
+</span>
+<span class="RaceList_ItemSubscribe">
+<img id="myhorse_202003010709" src="https://cdn.netkeiba.com/img.racev3/common/img/icon/icon_horse.png?2019073001" alt="" width="18" class="disp_none" />
+</span>
+</div><!-- /.RaceData -->
+</div><!-- /.RaceList_Item02 -->
+</a>
+<a href="../race/movie.html?race_id=202003010709&rf=race_list" class="LinkIconRaceMovie" id="movie_202003010709" style="display: none">
+<img  src="https://cdn.netkeiba.com/img.racev3/common/img/icon/icon_movie_01.gif?2019073001">
+</a>
+<!-- <div class="RaceList_Movie_Box">
+<a href=""></a>
+</div> --> <!-- /.RaceList_Movie_Box -->
+</li><li class="RaceList_DataItem ">
+<a href="../race/shutuba.html?race_id=202003010710&rf=race_list" class="">
+<!-- <div class="RaceList_Item01"> -->
+<div class="Race_Num"><span>10R</span></div>
+
+
+<!-- </div> --><!-- /.RaceList_Item01 -->
+<div class="RaceList_ItemContent">
+<div class="RaceList_ItemTitle">
+<span class="ItemTitle">しゃくなげ賞</span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="Icon_GradeType Icon_GradeType18 Icon_GradePos01"></span>
+</div>
+<div class="RaceData">
+
+<span class="RaceList_Itemtime"> </span>
+<span class="RaceList_ItemLong Turf">芝1200m</span>
+
+
+<span class="RaceList_Itemnumber">22頭 </span>
+<span class="RaceList_ItemSubscribe">
+</span>
+<span class="RaceList_ItemSubscribe">
+<img id="myhorse_202003010710" src="https://cdn.netkeiba.com/img.racev3/common/img/icon/icon_horse.png?2019073001" alt="" width="18" class="disp_none" />
+</span>
+</div><!-- /.RaceData -->
+</div><!-- /.RaceList_Item02 -->
+</a>
+<a href="../race/movie.html?race_id=202003010710&rf=race_list" class="LinkIconRaceMovie" id="movie_202003010710" style="display: none">
+<img  src="https://cdn.netkeiba.com/img.racev3/common/img/icon/icon_movie_01.gif?2019073001">
+</a>
+<!-- <div class="RaceList_Movie_Box">
+<a href=""></a>
+</div> --> <!-- /.RaceList_Movie_Box -->
+</li><li class="RaceList_DataItem ">
+<a href="../race/shutuba.html?race_id=202003010711&rf=race_list" class="">
+<!-- <div class="RaceList_Item01"> -->
+<div class="Race_Num"><span>11R</span></div>
+
+
+<!-- </div> --><!-- /.RaceList_Item01 -->
+<div class="RaceList_ItemContent">
+<div class="RaceList_ItemTitle">
+<span class="ItemTitle">福島放送賞</span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="Icon_GradeType Icon_GradeType17 Icon_GradePos01"></span>
+
+</div>
+<div class="RaceData">
+
+<span class="RaceList_Itemtime"> </span>
+<span class="RaceList_ItemLong Turf">芝1800m</span>
+
+
+<span class="RaceList_Itemnumber">15頭 </span>
+<span class="RaceList_ItemSubscribe">
+</span>
+<span class="RaceList_ItemSubscribe">
+<img id="myhorse_202003010711" src="https://cdn.netkeiba.com/img.racev3/common/img/icon/icon_horse.png?2019073001" alt="" width="18" class="disp_none" />
+</span>
+</div><!-- /.RaceData -->
+</div><!-- /.RaceList_Item02 -->
+</a>
+<a href="../race/movie.html?race_id=202003010711&rf=race_list" class="LinkIconRaceMovie" id="movie_202003010711" style="display: none">
+<img  src="https://cdn.netkeiba.com/img.racev3/common/img/icon/icon_movie_01.gif?2019073001">
+</a>
+<!-- <div class="RaceList_Movie_Box">
+<a href=""></a>
+</div> --> <!-- /.RaceList_Movie_Box -->
+</li><li class="RaceList_DataItem ">
+<a href="../race/shutuba.html?race_id=202003010712&rf=race_list" class="">
+<!-- <div class="RaceList_Item01"> -->
+<div class="Race_Num"><span>12R</span></div>
+
+
+<!-- </div> --><!-- /.RaceList_Item01 -->
+<div class="RaceList_ItemContent">
+<div class="RaceList_ItemTitle">
+<span class="ItemTitle">喜多方特別</span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="Icon_GradeType Icon_GradeType18 Icon_GradePos01"></span>
+</div>
+<div class="RaceData">
+
+<span class="RaceList_Itemtime"> </span>
+<span class="RaceList_ItemLong Turf">芝1200m</span>
+
+
+<span class="RaceList_Itemnumber">21頭 </span>
+<span class="RaceList_ItemSubscribe">
+</span>
+<span class="RaceList_ItemSubscribe">
+<img id="myhorse_202003010712" src="https://cdn.netkeiba.com/img.racev3/common/img/icon/icon_horse.png?2019073001" alt="" width="18" class="disp_none" />
+</span>
+</div><!-- /.RaceData -->
+</div><!-- /.RaceList_Item02 -->
+</a>
+<a href="../race/movie.html?race_id=202003010712&rf=race_list" class="LinkIconRaceMovie" id="movie_202003010712" style="display: none">
+<img  src="https://cdn.netkeiba.com/img.racev3/common/img/icon/icon_movie_01.gif?2019073001">
+</a>
+<!-- <div class="RaceList_Movie_Box">
+<a href=""></a>
+</div> --> <!-- /.RaceList_Movie_Box -->
+</li>
+</ul>
+</dd>
+</dl>
+</div>
+</div>

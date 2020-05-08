@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% block title %}Sign up{% endblock %}
+
+{% block content %}
+<h1>{{ object.title }}</h1>
+<p>{{ object.date.month }}/{{ object.date.day }} | {{ object.place }} </p>
+<section class="post-text">
+    {{ object.text|linebreaksbr }}
+</section>
+<section class="post-date">
+<ul>
+{% if message %}
+	<p>{{ message }}</p>
+{% else %}
+	{% for hd in predict_data %}
+	   <li><span>{{ forloop.counter }}</span> {{hd.0}} | {{hd.1}} 分</li>
+	   <hr>
+	{% endfor %}
+{% endif %}
+</section>
+<section>
+    <p><a href="javascript:history.back()">&lt; Back</a></p>
+</section>
+{% endblock %}

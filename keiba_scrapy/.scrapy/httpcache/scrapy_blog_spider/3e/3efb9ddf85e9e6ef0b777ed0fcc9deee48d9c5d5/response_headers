@@ -1,0 +1,15 @@
+Date: Tue, 28 Apr 2020 09:07:17 GMT
+Content-Type: text/plain; charset=utf-8
+Cache-Control: s-maxage=120, max-age=5
+Etag: W/"417185d0ed4f8f59be95a61910a6c7c4"
+Last-Modified: Tue, 28 Apr 2020 01:04:10 GMT
+Cf-Cache-Status: REVALIDATED
+Cache-Tag: P-4367560,SS-5622508161,PGS-ALL,SW-1,SD-10
+Edge-Cache-Tag: P-4367560,SS-5622508161,PGS-ALL,SW-1,SD-10
+X-Hs-Hub-Id: 4367560
+Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Vary: Accept-Encoding
+Server: cloudflare
+Cf-Ray: 58afa1d38c27f907-NRT
+Content-Encoding: gzip
+Cf-Request-Id: 0261a378350000f90798285200000001

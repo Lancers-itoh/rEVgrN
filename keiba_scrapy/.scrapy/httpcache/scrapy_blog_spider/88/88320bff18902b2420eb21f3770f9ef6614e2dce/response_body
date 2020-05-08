@@ -1,0 +1,69 @@
+<meta charset="UTF-8">
+<!-- block=race_list_sub (cg) -->
+<div class="RaceList_Body RaceList_Top" id="RaceTopRace">
+<div class="RaceList_Box clearfix">
+<dl class="RaceList_DataList">
+<dt class="RaceList_DataHeader">
+<p class="RaceList_DataTitle"><small>2回</small> 東京 <small>8日目</small></p>
+<div class="RaceList_DataDesc">
+
+
+
+</div> <!-- /.RaceList_DataDesc -->
+
+</dt>
+<dd class="RaceList_Data">
+<ul>
+<li class="RaceList_DataItem bg_jyoken">
+<a href="../race/shutuba.html?race_id=202005020811&rf=race_list" class="">
+<!-- <div class="RaceList_Item01"> -->
+<div class="Race_Num"><span>11R</span></div>
+
+
+<!-- </div> --><!-- /.RaceList_Item01 -->
+<div class="RaceList_ItemContent">
+<div class="RaceList_ItemTitle">
+<span class="ItemTitle">ヴィクトリア</span>
+<span class="Icon_GradeType Icon_GradeType1 Icon_GradePos01"></span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="RaceData">
+
+<span class="RaceList_Itemtime">15:40 </span>
+<span class="RaceList_ItemLong Turf">芝1600m</span>
+
+
+<span class="RaceList_Itemnumber">19頭 </span>
+<span class="RaceList_ItemSubscribe">
+</span>
+<span class="RaceList_ItemSubscribe">
+<img id="myhorse_202005020811" src="https://cdn.netkeiba.com/img.racev3/common/img/icon/icon_horse.png?2019073001" alt="" width="18" class="disp_none" />
+</span>
+</div><!-- /.RaceData -->
+</div><!-- /.RaceList_Item02 -->
+</a>
+<a href="../race/movie.html?race_id=202005020811&rf=race_list" class="LinkIconRaceMovie" id="movie_202005020811" style="display: none">
+<img  src="https://cdn.netkeiba.com/img.racev3/common/img/icon/icon_movie_01.gif?2019073001">
+</a>
+<!-- <div class="RaceList_Movie_Box">
+<a href=""></a>
+</div> --> <!-- /.RaceList_Movie_Box -->
+</li>
+</ul>
+</dd>
+</dl>
+</div>
+</div>
