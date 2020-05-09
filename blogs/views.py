@@ -10,6 +10,7 @@ from django.templatetags.static import static
 from django.contrib.staticfiles.storage import staticfiles_storage
 from .Xscraping import Parse_from, Predict_from_these, normalization
 import numpy as np
+from django.db.models import Q
 
 """
 Django Auth
@@ -25,9 +26,21 @@ https://docs.djangoproject.com/en/2.0/topics/auth/default/#the-login-required-de
 
 
 class IndexView(LoginRequiredMixin, generic.ListView):
+    """
     model = Racelist
     paginate_by = 5
     ordering = ['date']
+    """
+    def get_queryset(self):
+        q_word = self.request.GET.get('query')
+ 
+        if q_word:
+            object_list = Racelist.objects.filter(
+                Q(title__icontains=q_word) | Q(place__icontains=q_word) | Q(date__icontains=q_word))
+        else:
+            object_list = Racelist.objects.all()
+        ordering = ['date']
+        return object_list
 
 
 class DetailView(LoginRequiredMixin, generic.DetailView):

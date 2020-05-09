@@ -8,7 +8,12 @@
 <h1>Username</h1>
 <p class="user-name">{{ user }}</p>
 {% endif %}
-
+<section>
+    <form action="" method="get">
+        <input name="query" value="{{ request.GET.query }}" type="text">
+        <button type="submit">検索する</button>
+    </form>
+</section>
 <h1>レース情報</h1>
 <section class="post-list">
     <ul>
