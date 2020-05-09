@@ -23,12 +23,14 @@ https://docs.djangoproject.com/en/2.0/topics/auth/default/#the-login-required-de
 """
 
 
-class IndexView(generic.ListView):
+
+class IndexView(LoginRequiredMixin, generic.ListView):
     model = Racelist
     paginate_by = 5
     ordering = ['date']
 
-class DetailView(generic.DetailView):
+
+class DetailView(LoginRequiredMixin, generic.DetailView):
     model = Racelist
 
     def get_context_data(self, **kwargs):
