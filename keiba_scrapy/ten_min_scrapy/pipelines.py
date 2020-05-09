@@ -2,6 +2,7 @@ from datetime import datetime
 import os
 import sqlite3
 
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 class TenMinScrapyPipeline(object):
     _db = None
@@ -9,7 +10,8 @@ class TenMinScrapyPipeline(object):
     @classmethod
     def get_database(cls):
         cls._db = sqlite3.connect(
-            os.path.join('/Users/itoutouma/Programing_list/PythonStudy/keiba_project/myblog/db.sqlite3'))
+            os.path.join(BASE_DIR, 'db.sqlite3')
+        )
         #見た所、なければ新たに作成すると言うことで、ここに指定したファイルへアクセスしている
         # テーブル作成
         cursor = cls._db.cursor()

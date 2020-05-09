@@ -36,10 +36,9 @@ class IndexView(LoginRequiredMixin, generic.ListView):
  
         if q_word:
             object_list = Racelist.objects.filter(
-                Q(title__icontains=q_word) | Q(place__icontains=q_word) | Q(date__icontains=q_word))
+                Q(title__icontains=q_word) | Q(place__icontains=q_word) | Q(date__icontains=q_word)).order_by('date')
         else:
-            object_list = Racelist.objects.all()
-        ordering = ['date']
+            object_list = Racelist.objects.all().order_by('date')
         return object_list
 
 
