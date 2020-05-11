@@ -9,14 +9,18 @@
     {{ object.text|linebreaksbr }}
 </section>
 <section class="post-date">
-<ul>
 {% if message %}
 	<p>{{ message }}</p>
 {% else %}
+<table>
 	{% for hd in predict_data %}
-	   <li><span>{{ forloop.counter }}</span> {{hd.0}} | {{hd.1}} 分</li>
-	   <hr>
+		<tr>
+	   		<td>{{ forloop.counter }}</td> 
+	   		<td style="padding-left: 18px;">{{hd.0}} </td>
+	   		<td style="padding-left: 18px;">{{hd.1}} 分</td>
+		<tr>
 	{% endfor %}
+</table>
 {% endif %}
 </section>
 <section>
