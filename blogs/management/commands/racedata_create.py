@@ -73,11 +73,20 @@ class Command(BaseCommand):
 				#print("Horsewin:{}".format(Horse_win_rate))
 				try:
 					race_results = horse_soup.find(class_ = "db_h_race_results").tbody.find_all("tr")
+					"""
 					tds = race_results[0].find_all("td")
-					row_list = ()
 					tds_prev =  race_results[0].find_all("td")
 					Distance_prev = tds_prev[14].text[1:5]
 					Time_diff_prev = tds_prev[18].text
+					"""
+					for i in range(len(race_results)):
+						tds_prev = race_results[0].find_all("td")
+						Distance_prev = tds_prev[14].text[1:5]
+						Time_diff_prev = tds_prev[18].text
+						if Distance_prev != " " and Time_diff_prev != " ":
+							break
+					print("Distance_prev:{}".format(Distance_prev))
+					print("Time_diff_prev:{}".format(Time_diff_prev))
 					FirstTime = 0
 				except:
 					Distance_prev = 0
