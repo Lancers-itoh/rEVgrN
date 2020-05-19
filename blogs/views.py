@@ -8,7 +8,7 @@ from django.contrib.auth.decorators import login_required
 from .models import Racelist, Post, Racedata
 from django.templatetags.static import static
 from django.contrib.staticfiles.storage import staticfiles_storage
-from .Xscraping import Parse_from, Predict_from_these, normalization
+from .Xscraping import Predict_from_these, normalization
 import numpy as np
 from django.db.models import Q
 

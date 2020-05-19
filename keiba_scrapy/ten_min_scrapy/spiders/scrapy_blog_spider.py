@@ -5,6 +5,7 @@ from datetime import timedelta
 from datetime import timezone
 from datetime import datetime 
 import random
+import os
 
 class ScrapyBlogSpiderSpider(scrapy.Spider):
 	name = 'scrapy_blog_spider'
@@ -29,7 +30,6 @@ class ScrapyBlogSpiderSpider(scrapy.Spider):
 		for RaceList_DataList in response.css('.RaceList_DataList'):
 			date = response.url[63:69]
 			for post in RaceList_DataList.css('.RaceList_DataItem'):
-				print(post)
 				rel_url = post.css('a::attr(href)').extract_first().strip()
 				url = response.urljoin(rel_url)
 				
@@ -49,3 +49,7 @@ class ScrapyBlogSpiderSpider(scrapy.Spider):
 					title = race_num +":" + title,
 					date = date,
 				)
+
+
+
+

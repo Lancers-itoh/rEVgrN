@@ -13,12 +13,17 @@
 	<p>{{ message }}</p>
 {% else %}
 <table>
+	<tr>
+		<td>順位</td>
+		<td style = 'text-align:center;'>馬名</td>
+		<td style = 'text-align:center;'>予想タイム</td>
+	</tr>
 	{% for hd in predict_data %}
-		<tr>
-	   		<td>{{ forloop.counter }}</td> 
-	   		<td style="padding-left: 18px;">{{hd.0}} </td>
-	   		<td style="padding-left: 18px;">{{hd.1}} 分</td>
-		<tr>
+	<tr>
+	   	<td>{{ forloop.counter }}</td> 
+	   	<td style="padding-left: 18px;">{{hd.0}} </td>
+	   	<td style="padding-left: 18px;">{{hd.1}} 分</td>
+	<tr>
 	{% endfor %}
 </table>
 {% endif %}

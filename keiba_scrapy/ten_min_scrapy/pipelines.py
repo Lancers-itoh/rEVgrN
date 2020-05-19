@@ -2,7 +2,7 @@ from datetime import datetime
 import os
 import sqlite3
 
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 class TenMinScrapyPipeline(object):
     _db = None
