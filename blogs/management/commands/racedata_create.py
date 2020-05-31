@@ -51,7 +51,7 @@ class Command(BaseCommand):
 				Age = re.sub("\\D", "", horse_info)
 				#print("Age:{}".format(Age))
 				Burden = row.find_all("td")[5].text.strip()
-				if Burden == '未定'
+				if Burden == '未定':
 					print('未定')
 					Burden = 0
 					lackparams = lackparams + 1
