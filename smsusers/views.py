@@ -25,7 +25,7 @@ def detail(request, email_id):
 		if form.is_valid():
 			username  = request.POST['username']
 			password = request.POST['password']
-			CustomUser.objects.create_user(username, email=email, password=password, Parent_id=email.id)
+			CustomUser.objects.create_user(username, email=email.email, password=password, Parent_id=email.id)
 			return redirect('/users')
 	else:
 		form = CustomUserForm()

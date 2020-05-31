@@ -51,7 +51,7 @@ class Command(BaseCommand):
 				Age = re.sub("\\D", "", horse_info)
 				#print("Age:{}".format(Age))
 				Burden = row.find_all("td")[5].text.strip()
-				if Burden.isnumeric() == False:
+				if isinstance(float(Burden), float) == False:
 					Burden = 0
 					lackparams = lackparams + 1
 
@@ -134,7 +134,7 @@ class Command(BaseCommand):
 		##end of Parse_from function
 
 		last_pk = Racelist.objects.last().pk
-		raceobs = Racelist.objects.filter(id__gte = 50 )
+		raceobs = Racelist.objects.all()
 		for race in raceobs:
 			print(race.url)
 			print("{}/{}".format(race.pk, last_pk))

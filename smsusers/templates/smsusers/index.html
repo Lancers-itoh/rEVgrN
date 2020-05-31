@@ -3,7 +3,7 @@
 {% if params %}
     <ul>
     {% for email, count in params %}
-        <li><a href="/users/{{ email.id }}/">{{ email.emial }}</a></li>
+        <li><a href="/users/{{ email.id }}/">{{ email.email }}</a></li>
         <p>登録ユーザー数: {{ count }}</p>
         <br>
     {% endfor %}
