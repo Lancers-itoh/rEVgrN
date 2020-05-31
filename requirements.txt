@@ -1,6 +1,7 @@
 asgiref==3.2.7
 attrs==19.3.0
 Automat==20.2.0
+Babel==2.8.0
 beautifulsoup4==4.9.0
 certifi==2020.4.5.1
 cffi==1.14.0
@@ -9,8 +10,11 @@ constantly==15.1.0
 cryptography==2.9.2
 cssselect==1.1.0
 dj-database-url==0.5.0
-Django==3.0.5
+Django==3.0.6
+django-extra-views==0.13.0
 django-heroku==0.3.1
+django-ipware==2.1.0
+django-phonenumber-field==4.0.0
 gunicorn==20.0.4
 hyperlink==19.0.0
 idna==2.9
@@ -19,6 +23,7 @@ joblib==0.14.1
 lxml==4.5.0
 numpy==1.18.3
 parsel==1.5.2
+phonenumbers==8.12.4
 Protego==0.1.16
 psycopg2==2.8.5
 psycopg2-binary==2.8.5
