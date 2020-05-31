@@ -30,6 +30,7 @@ ALLOWED_HOSTS = ['*']
 # Application definition
 
 INSTALLED_APPS = [
+    'smsusers.apps.SmsusersConfig',
     'accounts.apps.AccountsConfig',
     'blogs.apps.BlogsConfig',
     'django.contrib.admin',
@@ -39,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 ]
+AUTH_USER_MODEL = 'smsusers.CustomUser'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -114,6 +116,7 @@ STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]  # './static'
 # Auth
 # https://docs.djangoproject.com/en/2.0/ref/settings/#login-redirect-url
 LOGIN_REDIRECT_URL = '/'
+LOGIN_URL = '/users/login/'
 
 
 try:

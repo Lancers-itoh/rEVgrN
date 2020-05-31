@@ -1,0 +1,13 @@
+<h1>管理者ページ</h1>
+<a href="/">アプリへ戻る</a>
+{% if params %}
+    <ul>
+    {% for email, count in params %}
+        <li><a href="/users/{{ email.id }}/">{{ email.emial }}</a></li>
+        <p>登録ユーザー数: {{ count }}</p>
+        <br>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No polls are available.</p>
+{% endif %}

@@ -39,6 +39,7 @@ class Command(BaseCommand):
 			except:
 				table_trs = soup.find(class_ = "RaceTableArea").find_all(class_ = "HorseList")
 			for row in table_trs:
+				lackparams = 0
 				horse_info = row.find_all("td")[4].text
 				if horse_info.find("牡") == -1:
 					#"牝"
@@ -50,6 +51,10 @@ class Command(BaseCommand):
 				Age = re.sub("\\D", "", horse_info)
 				#print("Age:{}".format(Age))
 				Burden = row.find_all("td")[5].text.strip()
+				if Burden.isnumeric() == False:
+					Burden = 0
+					lackparams = lackparams + 1
+
 				#print("Burden:{}".format(Burden))
 				try:
 					Jockey_code = re.sub("\\D", "", row.find(class_ = "Jockey").a.get("href"))
@@ -61,15 +66,19 @@ class Command(BaseCommand):
 				Horsename = horse_name.text.strip()
 				horse_url = horse_name.a.get("href")
 				horse_soup = get_bs(horse_url)
-				profile_trs = horse_soup.find(class_ = "db_prof_area_02").find_all("tr")
-				if  str(profile_trs [8]).find("通算成績") == -1:
-					a,b,c,d,e = re.findall(r'[0-9]+', profile_trs [7].find("td").text)[0:5]
-				else:
-					a,b,c,d,e = re.findall(r'[0-9]+', profile_trs [8].find("td").text)[0:5]
-				if(a != '0'):
-					Horse_win_rate = ( int(c) + int(d) + int(e))/int(a)
-				else:
+				try:
+					profile_trs = horse_soup.find(class_ = "db_prof_area_02").find_all("tr")
+					if  str(profile_trs [8]).find("通算成績") == -1:
+						a,b,c,d,e = re.findall(r'[0-9]+', profile_trs [7].find("td").text)[0:5]
+					else:
+						a,b,c,d,e = re.findall(r'[0-9]+', profile_trs [8].find("td").text)[0:5]
+					if(a != '0'):
+						Horse_win_rate = ( int(c) + int(d) + int(e))/int(a)
+					else:
+						Horse_win_rate = 0
+				except:
 					Horse_win_rate = 0
+					lackparams = lackparams + 1
 				#print("Horsewin:{}".format(Horse_win_rate))
 				try:
 					race_results = horse_soup.find(class_ = "db_h_race_results").tbody.find_all("tr")
@@ -81,10 +90,12 @@ class Command(BaseCommand):
 							FirstTime = 0
 							break
 						if i == len(race_results)-1:
+							lackparams = lackparams + 2
 							Distance_prev = 0
 							Time_diff_prev = 0
 							FirstTime = 1
 				except:
+					lackparams = lackparams + 2
 					Distance_prev = 0
 					Time_diff_prev = 0
 					FirstTime = 1
@@ -99,6 +110,7 @@ class Command(BaseCommand):
 					try:
 						Horse_weight, Delta_weight = re.findall(r'[0-9\+\-]+', tds[23].text)
 					except:
+						lackparams = lackparams + 2
 						Horse_weight = 0
 						Delta_weight = 0
 
@@ -106,17 +118,23 @@ class Command(BaseCommand):
 				#print("Delta_weight:{}".format(Delta_weight))
 				pre_ex = np.array([Horse_win_rate, Age, Gender, Number, Prize, Burden, Distance_prev, Time_diff_prev, Horse_weight, Delta_weight, Jockey_win_rate,  Distance, FirstTime])
 				horse_data = ""
-				for d in pre_ex:
+				for s in pre_ex:
+					d = float(s)
+					if (not isinstance(d, float)) & (not isinstance(d, int)):
+						print("Non num:{}".format(d))
+						d = 0
+						lackparams = lackparams + 1
+
 					horse_data = horse_data + str(d) + "/"
 
 				print(horse_data)
-				race.racedata_set.update_or_create(horse_name = Horsename, horse_data = horse_data)
+				print("lack: {}".format(lackparams))
+				race.racedata_set.update_or_create(horse_name = Horsename, horse_data = horse_data, lackparams = lackparams)
 
-				#print(Horsename)
+		##end of Parse_from function
 
 		last_pk = Racelist.objects.last().pk
-		#raceobs = Racelist.objects.all()
-		raceobs = Racelist.objects.filter(pk__gte = 807)
+		raceobs = Racelist.objects.filter(id__gte = 50 )
 		for race in raceobs:
 			print(race.url)
 			print("{}/{}".format(race.pk, last_pk))

@@ -122,6 +122,11 @@ def LearningData_Parse_from(year):
 
     return(EX_list)
 
+
+
+def calc_norm_parameters_of():
+    return(["Xmean", "Xstd"])
+
 def model_update():
     import requests
     from bs4 import BeautifulSoup

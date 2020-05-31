@@ -19,7 +19,10 @@ from django.urls import include, path
 urlpatterns = [
     # https://docs.djangoproject.com/en/2.0/topics/auth/default/#module-django.contrib.auth.views
     path('', include('blogs.urls')),
-    path('accounts/', include('accounts.urls')),
-    path('accounts/', include('django.contrib.auth.urls')),
+    path('users/', include('smsusers.urls')),
+    path('users/', include('django.contrib.auth.urls')),
     path('admin/', admin.site.urls),
 ]
+
+#django.contrib.auth.urls をインクルードすれば、templates/registration/以下に配置された
+#login.htmlおよびlogged_out.htmlという名前のテンプレートが、それぞれ上記URLにおいて自動的に表示される

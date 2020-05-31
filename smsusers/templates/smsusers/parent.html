@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% load static %}
+
+{% block title %}
+{% endblock title %}
+
+{% block links %}
+{% endblock links %}
+
+{% block headertitle %}
+{% endblock %}
+
+{% block content %}
+
+<form action="." method="post">
+{% csrf_token %}
+
+<p>親テーブル</p>
+<table>
+  {{ form }}
+</table>
+
+{% for formset in inlines %}
+<table>
+  {% for form in formset %}
+  <tr>
+    <td>{{ form.label_tag }}</td>
+    <td>{{ form }}</td>
+  </tr>
+  {% endfor %}
+</table>
+{% endfor %}
+
+<input class="btn btn-primary" type="submit" value="登録" />
+
+{% endblock content %}
+
+{% block script %}
+<script>
+    $(function(){
+    })
+</script>
+{% endblock %}
