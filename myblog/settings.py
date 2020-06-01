@@ -125,15 +125,15 @@ DATABASES = {
         'NAME': 'name',
         'USER': 'user',
         'PASSWORD': '',
-        'HOST': 'host',
+        'HOST': 'localhost',
         'PORT': '',
     }
 }
 
-"""
-db_from_env = dj_database_url.config(conn_max_age=600, ssl_require=True)
+
+db_from_env = dj_database_url.config(conn_max_age=500, ssl_require=True)
 DATABASES['default'].update(db_from_env)
-"""
+
 """
 #local
 DATABASES = {
@@ -152,3 +152,4 @@ if not DEBUG:
     import django_heroku
     django_heroku.settings(locals())
 """
+
