@@ -130,16 +130,25 @@ DATABASES = {
     }
 }
 
+"""
 db_from_env = dj_database_url.config(conn_max_age=600, ssl_require=True)
 DATABASES['default'].update(db_from_env)
-
-'''
-try:
-    from .local_settings import *
-except ImportError:
-    pass
-'''
-
+"""
+"""
+#local
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'example-db',
+        'USER': 'postgres',
+        'PASSWORD': 'eukaryotic',
+        'HOST': 'localhost',
+        'PORT': '',
+    }
+}
+"""
+"""
 if not DEBUG:
     import django_heroku
     django_heroku.settings(locals())
+"""
