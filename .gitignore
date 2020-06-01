@@ -194,7 +194,7 @@ fabric.properties
 
 # Sonarlint plugin
 .idea/sonarlint
-
+.db.sqlite3
 
 
 
