@@ -1,30 +1,37 @@
 from datetime import datetime 
 import os
 import sqlite3
+import psycopg2
 
+try:
+    database_url = os.environ['DATABASE_URL']
+except KeyError:
+    from .local_database_url import *
+    
+print(database_url)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 class TenMinScrapyPipeline(object):
     _db = None
-
     @classmethod
     def get_database(cls):
-        cls._db = sqlite3.connect(
-            os.path.join(BASE_DIR, 'db.sqlite3')
-        )
+        #cls._db = sqlite3.connect(
+        #    os.path.join(BASE_DIR, 'db.sqlite3')
+        #)
+        connection = psycopg2.connect(database_url)
         #見た所、なければ新たに作成すると言うことで、ここに指定したファイルへアクセスしている
-        # テーブル作成
-        cursor = cls._db.cursor()
+        cursor = connection.cursor()
+        print("CURSOR!!!")
         cursor.execute(
             'CREATE TABLE IF NOT EXISTS blogs_racelist(\
-                id INTEGER PRIMARY KEY AUTOINCREMENT, \
+                id SERIAL PRIMARY KEY, \
                 url TEXT UNIQUE NOT NULL, \
                 title TEXT NOT NULL, \
                 place TEXT NOT NULL, \
                 date DATE NOT NULL \
             );')
 
-        return cls._db
+        return cursor
 
     def process_item(self, item, spider):
         """
@@ -42,21 +49,19 @@ class TenMinScrapyPipeline(object):
             # 既に同じURLのデータが存在する場合はスキップ
             return
         
-        db = self.get_database()
-        db.execute(
-            'INSERT INTO blogs_racelist (title, url, place, date) VALUES (?, ?, ?, ?)', (
-                item['title'],
-                item['url'],
-                item['place'],
-                datetime.strptime(item['date'], '%y%m%d')
-            )
-        )
-        db.commit()
+        sentence = "INSERT INTO blogs_racelist (title, url, place, date) VALUES " + "('" +  item['title'] + "', '" +  item['url'] + "', '" +  item['place'] + "', '" +  item['date'] + "');"
+        print(sentence) 
+
+        with psycopg2.connect(database_url) as conn:
+            with conn.cursor() as cur:
+                cur.execute(sentence)
+            conn.commit()
 
     def find_post(self, url):
         db = self.get_database()
+        sentence = "SELECT * FROM blogs_racelist WHERE url = " + "'" + url + "'" + ";"
+        print(sentence)
         cursor = db.execute(
-            'SELECT * FROM blogs_racelist WHERE url=?',
-            (url,)
+            sentence
         )
-        return cursor.fetchone()
+        return db.fetchone()

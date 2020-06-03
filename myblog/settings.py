@@ -119,6 +119,7 @@ STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]  # './static'
 LOGIN_REDIRECT_URL = '/'
 LOGIN_URL = '/users/login/'
 
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
@@ -134,19 +135,11 @@ DATABASES = {
 db_from_env = dj_database_url.config(conn_max_age=500, ssl_require=True)
 DATABASES['default'].update(db_from_env)
 
-"""
-#local
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'example-db',
-        'USER': 'postgres',
-        'PASSWORD': 'eukaryotic',
-        'HOST': 'localhost',
-        'PORT': '',
-    }
-}
-"""
+
+try:
+    from .local_settings import *
+except ImportError:
+    pass
 """
 if not DEBUG:
     import django_heroku

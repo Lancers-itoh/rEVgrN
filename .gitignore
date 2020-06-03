@@ -194,8 +194,8 @@ fabric.properties
 
 # Sonarlint plugin
 .idea/sonarlint
-.db.sqlite3
-
+db.sqlite3
+keiba_scrapy/ten_min_scrapy/local_database_url.py
 
 
 # End of https://www.gitignore.io/api/pycharm
