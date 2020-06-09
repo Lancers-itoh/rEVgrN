@@ -28,7 +28,7 @@ class Command(BaseCommand):
 			return(Jockey_win_ratio)
 
 
-		def Parse_from(soup):
+		def Parse_from(soup, obj):
 			string_distance = soup.find(class_ = "RaceData01").span.text
 			Distance = re.sub("\\D", "", string_distance)
 			RaceData02_spans = soup.find(class_ = "RaceData02").find_all("span")
@@ -142,13 +142,14 @@ class Command(BaseCommand):
 			race = Racelist.objects.get(pk = race.pk)
 			soup = get_bs(race.url)
 			if soup != 0:
-				Parse_from(soup)
+				Parse_from(soup, race)
 		'''
 		url = 'https://race.netkeiba.com/race/shutuba.html?race_id=202009030212&rf=race_list'
+		race = Racelist.objects.filter(url = url)
 		soup = get_bs(url)
 		print(soup)
 		if soup != 0:
-				Parse_from(soup)
+			Parse_from(soup, race)
 
 		
 
