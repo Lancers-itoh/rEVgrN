@@ -7,7 +7,17 @@
 
 {% csrf_token %}
 
-<form method="POST" class="post-form">{% csrf_token %}
+{% if user_exist %}
+	<p style="color: red; font-size:20px;">このメールアドレスには以下のユーザーが登録されています。<br>
+	<b>{{ username }}</b>
+	</p>
+	<form method="POST" class="post-form">{% csrf_token %}
 	{{ form.as_p }}
 	<button type="submit" class="save btn btn-default">Save</button>
 </form>
+{% else %}
+	<form method="POST" class="post-form">{% csrf_token %}
+		{{ form.as_p }}
+		<button type="submit" class="save btn btn-default">Save</button>
+	</form>
+{% endif %}

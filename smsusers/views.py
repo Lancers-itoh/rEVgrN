@@ -20,6 +20,11 @@ def index(request):
 
 def detail(request, email_id):
 	email = AdEmail.objects.get(pk=email_id)
+	user_exist = False
+	username = ""
+	if email.customuser_set.count() >= 1:
+		user_exist = True
+		username = email.customuser_set.first().username
 	if request.method == "POST":
 		form = CustomUserForm(request.POST)
 		if form.is_valid():
@@ -29,7 +34,7 @@ def detail(request, email_id):
 			return redirect('/users')
 	else:
 		form = CustomUserForm()
-	return render(request, 'smsusers/detail.html', {'email': email, 'form': form})
+	return render(request, 'smsusers/detail.html', {'email': email, 'form': form, 'user_exist': user_exist, 'username': username})
 
 @csrf_exempt
 def create(request):
