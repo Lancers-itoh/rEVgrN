@@ -133,7 +133,6 @@ class Command(BaseCommand):
 				race.racedata_set.update_or_create(horse_name = Horsename, horse_data = horse_data, lackparams = lackparams)
 
 		##end of Parse_from function
-		'''
 		last_pk = Racelist.objects.last().pk
 		raceobs = Racelist.objects.all()
 		for race in raceobs:
@@ -143,13 +142,6 @@ class Command(BaseCommand):
 			soup = get_bs(race.url)
 			if soup != 0:
 				Parse_from(soup, race)
-		'''
-		url = 'https://race.netkeiba.com/race/shutuba.html?race_id=202009030212&rf=race_list'
-		race = Racelist.objects.filter(url = url).first()
-		soup = get_bs(url)
-		print(soup)
-		if soup != 0:
-			Parse_from(soup, race)
 
 		
 
