@@ -145,7 +145,7 @@ class Command(BaseCommand):
 				Parse_from(soup, race)
 		'''
 		url = 'https://race.netkeiba.com/race/shutuba.html?race_id=202009030212&rf=race_list'
-		race = Racelist.objects.filter(url = url)
+		race = Racelist.objects.filter(url = url).first()
 		soup = get_bs(url)
 		print(soup)
 		if soup != 0:
