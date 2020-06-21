@@ -2,7 +2,7 @@ from django.db import models
 from django.contrib.auth.models import AbstractUser
 
 class AdEmail(models.Model):
-	email = models.EmailField(max_length=254)
+	email = models.EmailField(max_length=254, unique=True)
 
 class CustomUser(AbstractUser):
 	#デフォルトのAbstractUserを継承しフィールドを拡張する

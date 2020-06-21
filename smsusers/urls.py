@@ -9,4 +9,6 @@ urlpatterns = [
 	path('', views.index, name='index'),
 	path('<int:email_id>/', views.detail, name='detail'),
 	path('email/', views.create, name='create'),
+	path('<int:email_id>/email_delete/', views.email_delete, name='email_delete'),
+	path('<int:email_id>/email_edit/', views.email_edit, name='email_edit'),
 ]

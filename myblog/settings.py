@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/2.0/ref/settings/
 
 import os
 import dj_database_url
+import environ
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -20,8 +21,10 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-#SECRET_KEY = os.environ['SECRET_KEY']
-SECRET_KEY = 'knt5e_sj_95sr3g7oa#cdvq3eqjgp)u^^4j*a(e)6&a5$b4j=u'
+env = environ.Env()
+env.read_env('.env')
+
+SECRET_KEY = env('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
@@ -131,6 +134,13 @@ DATABASES = {
     }
 }
 
+
+#Replace this to client mail or your own mail
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = env('APP_EMAIL_ADRESS')
+EMAIL_HOST_PASSWORD = env('APP_EMAIL_PASSWORD')
+EMAIL_USE_TLS = True
 
 db_from_env = dj_database_url.config(conn_max_age=500, ssl_require=True)
 DATABASES['default'].update(db_from_env)

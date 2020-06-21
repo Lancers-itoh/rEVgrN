@@ -1,19 +1,27 @@
-<a href="/users">ユーザー一覧へもどる</a>
+<a href="/adminuser/">ユーザー一覧へもどる</a>
 
-<h1>{{ email.email }}</h1>
+<p style="font-size:24px;">{{ email.email }} <a href = "email_edit/">編集</a> </p>
 
+<form method="post" action="{% url 'smsusers:email_delete' email.pk %}">{% csrf_token %}
+ 	<button class="btn" style="background-color: red; color: white;" type="submit" onclick='return confirm("対応するユーザーも削除されます。本当に削除しますか？");'>
+		この<strong>メールアドレス</strong>を削除する
+ 	</button>
+</form>
 {% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}
 
 
 {% csrf_token %}
 
 {% if user_exist %}
-	<p style="color: red; font-size:20px;">このメールアドレスには以下のユーザーが登録されています。<br>
-	<b>{{ username }}</b>
-	</p>
 	<form method="POST" class="post-form">{% csrf_token %}
 	{{ form.as_p }}
 	<button type="submit" class="save btn btn-default">Save</button>
+	<p style = "margin-left: 20px;">登録ID</p>
+	<ul style="font-size:20px;">
+	{% for user in usernames %}
+		<li>{{ user.username }}</li>
+	{% endfor %}
+	</ul>
 </form>
 {% else %}
 	<form method="POST" class="post-form">{% csrf_token %}

@@ -19,7 +19,7 @@ from django.urls import include, path
 urlpatterns = [
     # https://docs.djangoproject.com/en/2.0/topics/auth/default/#module-django.contrib.auth.views
     path('', include('blogs.urls')),
-    path('users/', include('smsusers.urls')),
+    path('adminuser/', include('smsusers.urls')),
     path('users/', include('django.contrib.auth.urls')),
     path('admin/', admin.site.urls),
 ]

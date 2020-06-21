@@ -1,10 +1,19 @@
 <h1>管理者ページ</h1>
 <a href="/">アプリへ戻る</a>
+{% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}
+<hr>
+<h3>新規仮登録ユーザー登録</h3>
+<form method="POST" class="post-form">{% csrf_token %}
+	{{ form.as_p }}
+	<button type="submit" class="save btn btn-default">Save</button>
+</form>
+<hr>
+<h3>仮登録済みユーザー一覧</h3>
 {% if params %}
     <ul>
     {% for email, count in params %}
-        <li><a href="/users/{{ email.id }}/">{{ email.email }}</a></li>
-        <p>登録ユーザー数: {{ count }}</p>
+        <li><a href="/adminuser/{{ email.id }}/">{{ email.email }}</a></li>
+        <p>本登録ユーザー数: {{ count }}</p>
         <br>
     {% endfor %}
     </ul>
