@@ -8,6 +8,9 @@ class Racelist(models.Model):
     title = models.TextField()
     place = models.TextField()
     date = models.DateTimeField()
+    racedata_updated_at = models.DateTimeField(auto_now=True)
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
     def __str__(self):
         return self.url
 
@@ -19,6 +22,8 @@ class Racedata(models.Model):
     horse_name = models.TextField()
     horse_data = models.TextField()
     lackparams = models.TextField()
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
     def __str__(self):
         return self.horse_data
         

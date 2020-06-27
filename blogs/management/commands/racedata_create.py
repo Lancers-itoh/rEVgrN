@@ -1,12 +1,12 @@
 from django.core.management.base import BaseCommand, CommandError
 from blogs.models import Racelist, Racedata
-import datetime
 from django.utils import timezone
 import requests
 from bs4 import BeautifulSoup
-import datetime
 import re
 import numpy as np
+from datetime import datetime, timedelta
+
 
 class Command(BaseCommand):
 	def handle(self, *args, **options):
@@ -133,15 +133,23 @@ class Command(BaseCommand):
 				race.racedata_set.update_or_create(horse_name = Horsename, horse_data = horse_data, lackparams = lackparams)
 
 		##end of Parse_from function
+		#24h 以内にupdateがあるものはraceobsから除外する
+		#子オブジェクトの作成がいつかってこと！
+		# created_at - timedelta.now() > 24h &&
+		# min ( created_at - timedelta.now() ) 
+		yesterday = timezone.now() + timedelta(days=-1)
+		# these records are not updated yet
+		# high speed scraiping should be refrain
+		raceobs = Racelist.objects.filter(racedata_updated_at__lt = yesterday)
 		last_pk = Racelist.objects.last().pk
-		raceobs = Racelist.objects.all()
 		for race in raceobs:
-			print(race.url)
 			print("{}/{}".format(race.pk, last_pk))
 			race = Racelist.objects.get(pk = race.pk)
 			soup = get_bs(race.url)
 			if soup != 0:
 				Parse_from(soup, race)
+			#ここまできたら子要素の更新は完了なので、日付更新.
+			race.racedata_updated_at = timezone.now()
 
 		
-
+		#最後に更新されたものを取得したとてo
