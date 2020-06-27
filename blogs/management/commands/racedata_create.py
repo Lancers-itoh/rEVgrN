@@ -28,7 +28,7 @@ class Command(BaseCommand):
 			return(Jockey_win_ratio)
 
 
-		def Parse_from(soup, obj):
+		def Parse_from(soup, race):
 			string_distance = soup.find(class_ = "RaceData01").span.text
 			Distance = re.sub("\\D", "", string_distance)
 			RaceData02_spans = soup.find(class_ = "RaceData02").find_all("span")
@@ -130,7 +130,14 @@ class Command(BaseCommand):
 
 				print(horse_data)
 				print("lack: {}".format(lackparams))
-				race.racedata_set.update_or_create(horse_name = Horsename, horse_data = horse_data, lackparams = lackparams)
+				#元データが更新されている場合これが聞かない。
+				obs = race.racedata_set.filter(horse_name = Horsename)
+				print(obs)
+				if obs:
+					print("UPDSTE!")
+					obs.update(horse_name = Horsename, horse_data = horse_data, lackparams = lackparams)
+				else:
+					race.racedata_set.create(horse_name = Horsename, horse_data = horse_data, lackparams = lackparams)
 
 		##end of Parse_from function
 		#24h 以内にupdateがあるものはraceobsから除外する
