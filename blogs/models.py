@@ -8,7 +8,7 @@ class Racelist(models.Model):
     title = models.TextField()
     place = models.TextField()
     date = models.DateTimeField()
-    racedata_updated_at = models.DateTimeField(auto_now=True)
+    racedata_updated_at = models.DateTimeField()
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
     def __str__(self):
