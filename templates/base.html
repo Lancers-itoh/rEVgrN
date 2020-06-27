@@ -7,12 +7,12 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link href="{% static 'css/style.css' %}" rel="stylesheet">
     <!-- <link href="static/css/style.css" rel="stylesheet"> -->
-    <title>{% if request.path != '/' %}{% block title %}{% endblock %} | {% endif %}競馬タイム予想アプリ</title>
+    <title>{% if request.path != '/' %}{% block title %}{% endblock %} | {% endif %}UMAJYOAI</title>
 </head>
 <body>
 <div class="container">
     <header>
-        <p class="site-name"><a href="{% url 'blogs:index' %}">競馬タイム予想アプリ</a></p>
+        <p class="site-name"><a href="{% url 'blogs:index' %}">UMAJYOAI</a></p>
         <nav>
             <ul>
                 {% if user.is_authenticated %}

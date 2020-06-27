@@ -1,6 +1,6 @@
 <a href="/adminuser/">ユーザー一覧へもどる</a>
 
-<p style="font-size:24px;">{{ email.email }} <a href = "email_edit/">編集</a> </p>
+<p style="font-size:24px;">{{ email.email }} <a href = "email_edit/" style="font-size:10px;">編集</a> </p>
 
 <form method="post" action="{% url 'smsusers:email_delete' email.pk %}">{% csrf_token %}
  	<button class="btn" style="background-color: red; color: white;" type="submit" onclick='return confirm("対応するユーザーも削除されます。本当に削除しますか？");'>
@@ -16,6 +16,7 @@
 	<form method="POST" class="post-form">{% csrf_token %}
 	{{ form.as_p }}
 	<button type="submit" class="save btn btn-default">Save</button>
+	<p>saveを押すとこのEmailにユーザー名とパスワードを通知します</p>
 	<p style = "margin-left: 20px;">登録ID</p>
 	<ul style="font-size:20px;">
 	{% for user in usernames %}

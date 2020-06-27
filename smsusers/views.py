@@ -18,7 +18,9 @@ def index(request):
 		AdEmail.objects.create(email = email)
 		return redirect('/adminuser')
 	else:
-	    email_list = AdEmail.objects.all()
+	    #email_list = AdEmail.objects.all()
+	    adminuser_email = 'kensuke.k1150@gmail.com'
+	    email_list = AdEmail.objects.exclude(email = adminuser_email)
 	    count_list = []
 	    for email in email_list:
 	    	count = email.customuser_set.all().count()
@@ -33,9 +35,9 @@ def detail(request, email_id):
 		return redirect("/")
 
 	def send_mail(user, str_password):
-		subject = "競馬タイム予想アプリ本登録完了のお知らせ"
-		message = "競馬タイム予想アプリ\n ID:" + user.username + "\n Password:" + str_password
-		from_email = 'tomaccessible@gmail.com'  # 送信者
+		subject = "UMAJYOAI本登録完了のお知らせ"
+		message = "UMAJYOAI\n ID:" + user.username + "\n Password:" + str_password
+		from_email = 'kensuke.k1150@gmail.com'  # 送信者
 		user.email_user(subject, message, from_email)  # メールの送信
 
 	email = AdEmail.objects.get(pk=email_id)
