@@ -147,11 +147,11 @@ class Command(BaseCommand):
 		yesterday = timezone.now() + timedelta(days=-1)
 		# these records are not updated yet
 		# high speed scraiping should be refrain
-		raceobs = Racelist.objects.filter(racedata_updated_at__lt = yesterday)
+		#raceobs = Racelist.objects.filter(racedata_updated_at__lt = yesterday)
+		raceobs = Racelist.objects.all()
 		last_pk = Racelist.objects.last().pk
 		for race in raceobs:
 			print("{}/{}".format(race.pk, last_pk))
-			race = Racelist.objects.get(pk = race.pk)
 			soup = get_bs(race.url)
 			if soup != 0:
 				Parse_from(soup, race)
