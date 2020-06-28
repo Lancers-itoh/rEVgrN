@@ -44,12 +44,13 @@ class ScrapyBlogSpiderSpider(scrapy.Spider):
 				
 				race_num = post.css('span::text').extract_first().strip()
 				title = post.css('.RaceList_DataItem .ItemTitle::text').extract_first().strip()
+				UCT = timezone(timedelta(hours=+0), 'UCT')
 				yield Blogs_racelist(
 					url = url,
 					place = place + ":" + cond,
 					title = race_num +":" + title,
 					date = date,
-					racedata_updated_at = datetime.now(UCT) + timedelta(days=-100)
+					racedata_updated_at = str(datetime.now(UCT) + timedelta(days=-100))
 				)
 
 
