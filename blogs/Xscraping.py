@@ -12,12 +12,10 @@ def normalization(values_as_nparr):
 
     Xmean_data = Learningdata.objects.first().Xmean[:-1]
     Xmean = re.split('[/]',Xmean_data)
-    print(Xmean)
     Xmean = np.array(Xmean).astype('float64')
 
     Xstd_data = Learningdata.objects.first().Xstd[:-1]
     Xstd = re.split('[/]',Xstd_data)
-    print(Xstd)
     Xstd = np.array(Xstd).astype('float64')
 
     '''

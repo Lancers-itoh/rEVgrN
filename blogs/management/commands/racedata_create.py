@@ -77,6 +77,11 @@ class Command(BaseCommand):
 				except:
 					TimeResult = 0
 				#print("JCwin:{}".format(Jockey_win_rate))
+				try:
+					umaban = row.find_all("td")[1].text.strip()
+				except:
+					umaban = "未定"
+				print(umaban)
 				horse_name = row.find_all("td")[3]
 				Horsename = horse_name.text.strip()
 				horse_url = horse_name.a.get("href")
@@ -149,9 +154,9 @@ class Command(BaseCommand):
 				print(obs)
 				if obs:
 					print("UPDSTE!")
-					obs.update(horse_name = Horsename, horse_data = horse_data, lackparams = lackparams, time_result = TimeResult)
+					obs.update(horse_name = Horsename,  horse_code = umaban, horse_data = horse_data, lackparams = lackparams, time_result = TimeResult)
 				else:
-					race.racedata_set.create(horse_name = Horsename, horse_data = horse_data, lackparams = lackparams, time_result = TimeResult)
+					race.racedata_set.create(horse_name = Horsename, horse_code = umaban, horse_data = horse_data, lackparams = lackparams, time_result = TimeResult)
 
 		##end of Parse_from function
 		#24h 以内にupdateがあるものはraceobsから除外する

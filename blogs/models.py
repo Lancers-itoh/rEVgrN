@@ -19,6 +19,7 @@ class Racelist(models.Model):
 class Racedata(models.Model):
     racelist = models.ForeignKey(Racelist, on_delete=models.CASCADE)
     horse_name = models.TextField()
+    horse_code = models.TextField(default = "未定")
     horse_data = models.TextField()
     time_result = models.TextField()
     lackparams = models.TextField()

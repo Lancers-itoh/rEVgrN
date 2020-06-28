@@ -3,7 +3,7 @@
 {% block title %}タイム予想{% endblock %}
 
 {% block content %}
-<h1>{{ object.title }}</h1>
+<a href = '{{ object.url }}' target="_blank" ><h1>{{ object.title }}</h1></a>
 <p>{{ object.date.month }}/{{ object.date.day }} | {{ object.place }} </p>
 <section class="post-text">
     {{ object.text|linebreaksbr }}
@@ -15,6 +15,7 @@
 <table>
 	<tr>
 		<td>順位</td>
+		<td>馬番</td>
 		<td style = 'text-align:center;'>馬名</td>
 		<td style = 'text-align:center;'>予想タイム</td>
 		<td style = 'text-align:center;'>データ欠損度</td>
@@ -23,8 +24,9 @@
 	<tr>
 	   	<td>{{ forloop.counter }}</td> 
 	   	<td style="padding-left: 18px;">{{hd.0}} </td>
-	   	<td style="padding-left: 18px;">{{hd.1}} 分</td>
-	   	<td style="padding-left: 18px;">{{hd.2}}/13 </td>
+	   	<td style="padding-left: 18px;">{{hd.1}} </td>
+	   	<td style="padding-left: 18px;">{{hd.2}} 分</td>
+	   	<td style="padding-left: 18px;">{{hd.3}}/13 </td>
 	<tr>
 	{% endfor %}
 </table>

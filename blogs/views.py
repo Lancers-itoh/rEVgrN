@@ -45,6 +45,7 @@ class DetailView(LoginRequiredMixin, generic.DetailView):
         race =  Racelist.objects.get(pk=self.kwargs['pk'])
 
         horse_names = race.racedata_set.values_list('horse_name', flat=True).all()
+        horse_codes = race.racedata_set.values_list('horse_code', flat=True).all()
         horse_values = race.racedata_set.values_list('horse_data', flat=True).all()
         lackparams = race.racedata_set.values_list('lackparams', flat=True).all()
 
@@ -61,7 +62,7 @@ class DetailView(LoginRequiredMixin, generic.DetailView):
             normalized_data = normalization(data)
             predict_times[i] = round(Predict_from_these(normalized_data, "static/data/mlp_model.sav")[0]/60,3)
         
-        racedata = np.array([horse_names, predict_times, lackparams])
+        racedata = np.array([horse_codes, horse_names, predict_times, lackparams])
         racedata = racedata.T
         racedata_sorted = racedata[np.argsort(racedata[:, 1])]
         context['predict_data'] = racedata_sorted
