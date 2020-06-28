@@ -1,5 +1,5 @@
 from django.core.management.base import BaseCommand, CommandError
-from blogs.models import Racelist, Learningdata
+from blogs.models import Racelist, Learningdata, Racedata
 import datetime
 from django.utils import timezone
 
