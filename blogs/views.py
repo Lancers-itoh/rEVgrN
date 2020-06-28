@@ -64,7 +64,7 @@ class DetailView(LoginRequiredMixin, generic.DetailView):
         
         racedata = np.array([horse_codes, horse_names, predict_times, lackparams])
         racedata = racedata.T
-        racedata_sorted = racedata[np.argsort(racedata[:, 1])]
+        racedata_sorted = racedata[np.argsort(racedata[:, 2])]
         context['predict_data'] = racedata_sorted
 
         return context
