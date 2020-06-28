@@ -27,6 +27,13 @@ class Command(BaseCommand):
 				Jockey_win_ratio = "0" + jockey_info.find_all("tr")[2].find_all("td")[18].text
 			return(Jockey_win_ratio)
 
+		def ToTotal_time(text_time):
+			minutes, seconds,milliseconds = map(int, re.split('[:.]',text_time))
+			#deltatime = datetime.timedelta(minutes=minutes, seconds=seconds, milliseconds = milliseconds*100)
+			deltatime = timedelta(minutes=minutes, seconds=seconds, milliseconds = milliseconds*100)
+			total_time = deltatime.total_seconds()
+			return(total_time)
+
 
 		def Parse_from(soup, race):
 			string_distance = soup.find(class_ = "RaceData01").span.text
@@ -62,6 +69,13 @@ class Command(BaseCommand):
 					Jockey_win_rate = JC_WinRateOf(Jockey_code)
 				except:
 					Jockey_win_rate = 0
+
+				try:
+					time_result = row.find_all(class_ = "RaceTime")[0].text
+					TimeResult = ToTotal_time(time_result)
+					print("This race is passed")
+				except:
+					TimeResult = 0
 				#print("JCwin:{}".format(Jockey_win_rate))
 				horse_name = row.find_all("td")[3]
 				Horsename = horse_name.text.strip()
@@ -135,27 +149,30 @@ class Command(BaseCommand):
 				print(obs)
 				if obs:
 					print("UPDSTE!")
-					obs.update(horse_name = Horsename, horse_data = horse_data, lackparams = lackparams)
+					obs.update(horse_name = Horsename, horse_data = horse_data, lackparams = lackparams, time_result = TimeResult)
 				else:
-					race.racedata_set.create(horse_name = Horsename, horse_data = horse_data, lackparams = lackparams)
+					race.racedata_set.create(horse_name = Horsename, horse_data = horse_data, lackparams = lackparams, time_result = TimeResult)
 
 		##end of Parse_from function
 		#24h 以内にupdateがあるものはraceobsから除外する
 		#子オブジェクトの作成がいつかってこと！
 		# created_at - timedelta.now() > 24h &&
 		# min ( created_at - timedelta.now() ) 
-		yesterday = timezone.now() + timedelta(days=-1)
+		yesterday = timezone.now() + timedelta(days=-2)
 		# these records are not updated yet
 		# high speed scraiping should be refrain
 		raceobs = Racelist.objects.filter(racedata_updated_at__lt = yesterday)
+		#raceobs = Racelist.objects.all()
 		last_pk = Racelist.objects.last().pk
+		print(yesterday)
 		for race in raceobs:
+			print(race.racedata_updated_at)
+			print(race.url)
 			print("{}/{}".format(race.pk, last_pk))
 			soup = get_bs(race.url)
 			if soup != 0:
 				Parse_from(soup, race)
 			#ここまできたら子要素の更新は完了なので、日付更新.
-			race.racedata_updated_at = timezone.now()
-
+			Racelist.objects.filter(pk = race.id).update(racedata_updated_at = timezone.now())
 		
 		#最後に更新されたものを取得したとてo

@@ -16,4 +16,4 @@ class Command(BaseCommand):
 		comp_time =  timezone.now() - datetime.timedelta(days = 3)
 		racelist = Racelist.objects.filter(date__lte = comp_time )
 		racelist.delete()
-		self.stdout.write(self.style.SUCCESS('Successfully delete 3days ago data and stock test'))
+		self.stdout.write(self.style.SUCCESS('Successfully delete 3days ago data and stock test data!!'))

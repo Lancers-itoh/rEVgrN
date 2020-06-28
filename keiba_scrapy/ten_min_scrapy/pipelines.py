@@ -28,7 +28,8 @@ class TenMinScrapyPipeline(object):
                 url TEXT UNIQUE NOT NULL, \
                 title TEXT NOT NULL, \
                 place TEXT NOT NULL, \
-                date DATE NOT NULL \
+                date DATE NOT NULL, \
+                racedata_updated_at DATE NOT NULL \
             );')
 
         return cursor
@@ -49,7 +50,8 @@ class TenMinScrapyPipeline(object):
             # 既に同じURLのデータが存在する場合はスキップ
             return
         
-        sentence = "INSERT INTO blogs_racelist (title, url, place, date) VALUES " + "('" +  item['title'] + "', '" +  item['url'] + "', '" +  item['place'] + "', '" +  item['date'] + "');"
+        print(item['racedata_updated_at'])
+        sentence = "INSERT INTO blogs_racelist (title, url, place, date, racedata_updated_at) VALUES " + "('" +  item['title'] + "', '" +  item['url'] + "', '" +  item['place'] + "', '" +  item['date'] + "', '" + item['racedata_updated_at'] + "');"
         print(sentence) 
 
         with psycopg2.connect(database_url) as conn:

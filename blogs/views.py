@@ -55,16 +55,11 @@ class DetailView(LoginRequiredMixin, generic.DetailView):
                 value = [float(s) for s in str_value.split('/')]
                 data = np.array(value)
             except:
-                print("###########")
-                print(horse_names[i])
-                print("str_value: {}".format(str_value))
                 context['message'] = "データの欠損により予測ができません"
                 return context
 
-            normalized_data = normalization(data, 'static/data/Xmean.csv', 'static/data/Xstd.csv')
-            Ymean = 92.68061322261258
-            Ystd = 19.06101964452713
-            predict_times[i] = round(Predict_from_these(normalized_data, "static/data/mlp_model.sav", Ymean, Ystd)[0]/60,3)
+            normalized_data = normalization(data)
+            predict_times[i] = round(Predict_from_these(normalized_data, "static/data/mlp_model.sav")[0]/60,3)
         
         racedata = np.array([horse_names, predict_times, lackparams])
         racedata = racedata.T
