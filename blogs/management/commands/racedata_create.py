@@ -96,6 +96,8 @@ class Command(BaseCommand):
                     umaban = row.find_all("td")[umaban_index].text.strip()
                 except:
                     umaban = "未定"
+                if umaban == '':
+                    umaban = "未定"
                 print(umaban)
                 horse_name = row.find_all("td")[3]
                 Horsename = horse_name.text.strip()
