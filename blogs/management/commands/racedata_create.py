@@ -36,6 +36,9 @@ class Command(BaseCommand):
 
 
         def Parse_from(soup, race):
+            Horse_name_list = list()
+            initial_registered_horses = race.racedata_set.values_list("horse_name", flat=True)
+
             string_distance = soup.find(class_ = "RaceData01").span.text
             Distance = re.sub("\\D", "", string_distance)
             RaceData02_spans = soup.find(class_ = "RaceData02").find_all("span")
@@ -101,6 +104,7 @@ class Command(BaseCommand):
                 print(umaban)
                 horse_name = row.find_all("td")[3]
                 Horsename = horse_name.text.strip()
+                Horse_name_list.append(Horsename)
                 horse_url = horse_name.a.get("href")
                 horse_soup = get_bs(horse_url)
                 try:
@@ -165,12 +169,25 @@ class Command(BaseCommand):
                 #元データが更新されている場合これが聞かない。
                 obs = race.racedata_set.filter(horse_name = Horsename)
                 print(obs)
+                #race に含まれているものを確認。
+                #race.racedata_set.all()とHorsenameを比較して存在しないものは消す
+
+                #[horse['horse_name'] for horse in race.racedata_set.values("horse_name")]
                 if obs:
                     print("UPDSTE!")
                     obs.update(horse_name = Horsename,  horse_code = umaban, horse_data = horse_data, lackparams = lackparams, time_result = TimeResult)
                 else:
                     race.racedata_set.create(horse_name = Horsename, horse_code = umaban, horse_data = horse_data, lackparams = lackparams, time_result = TimeResult)
-
+            
+            #End of for statement to each row
+            print(Horse_name_list)
+            print(initial_registered_horses)
+            if len(initial_registered_horses) > 0:
+                print("Initial delete execute")
+                delete_name = ( set(Horse_name_list) ^ set(initial_registered_horses) ) & set(initial_registered_horses)
+                print(delete_name)
+                race.racedata_set.filter(horse_name__in = delete_name).delete()
+                #inital_regstered_horses && Horse_name_list
         ##end of Parse_from function
         #24h 以内にupdateがあるものはraceobsから除外する
         #子オブジェクトの作成がいつかってこと！
