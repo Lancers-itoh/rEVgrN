@@ -193,7 +193,7 @@ class Command(BaseCommand):
         #子オブジェクトの作成がいつかってこと！
         # created_at - timedelta.now() > 24h &&
         # min ( created_at - timedelta.now() ) 
-        time_threshold = timezone.now() + timedelta(days=-1)
+        time_threshold = timezone.now() + timedelta(hours=-13)
         # these records are not updated yet
         # high speed scraiping should be refrain
         raceobs = Racelist.objects.filter(racedata_updated_at__lt = time_threshold)
@@ -204,7 +204,7 @@ class Command(BaseCommand):
             print("{}/{}".format(race.pk, last_pk))
             soup = get_bs(race.url)
             if soup != 0:
-                Parse_from(soup, race)
+                Parse_from(soup, race)  
             #ここまできたら子要素の更新は完了なので、日付更新.
             Racelist.objects.filter(pk = race.id).update(racedata_updated_at = timezone.now())
         
