@@ -10,6 +10,7 @@ class Racelist(models.Model):
     place = models.TextField()
     date = models.DateTimeField()
     racedata_updated_at = models.DateTimeField()
+    race_num = models.IntegerField()
     def __str__(self):
         return self.url
 

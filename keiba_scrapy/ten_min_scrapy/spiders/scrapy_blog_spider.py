@@ -42,14 +42,15 @@ class ScrapyBlogSpiderSpider(scrapy.Spider):
 				else:
 					cond = post.css('.RaceList_ItemLong::text').extract_first().strip()
 				
-				race_num = post.css('span::text').extract_first().strip()
+				race_num = post.css('span::text').extract_first().strip().split("R")[0]
 				title = post.css('.RaceList_DataItem .ItemTitle::text').extract_first().strip()
 				UCT = timezone(timedelta(hours=+0), 'UCT')
 				yield Blogs_racelist(
 					url = url,
 					place = place + ":" + cond,
-					title = race_num +":" + title,
+					title = race_num +"R:" + title,
 					date = date,
+					race_num = race_num,
 					racedata_updated_at = str(datetime.now(UCT) + timedelta(days=-100))
 				)
 

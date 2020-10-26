@@ -31,6 +31,7 @@ class TenMinScrapyPipeline(object):
                 title TEXT NOT NULL, \
                 place TEXT NOT NULL, \
                 date DATE NOT NULL, \
+                race_num INTEGER NOT NULL, \
                 racedata_updated_at DATE NOT NULL \
             );')
 
@@ -71,7 +72,7 @@ class TenMinScrapyPipeline(object):
                 #self.find_post(shutuba_url).delete()
         
         print(item['racedata_updated_at'])
-        sentence = "INSERT INTO blogs_racelist (title, url, place, date, racedata_updated_at) VALUES " + "('" +  item['title'] + "', '" +  item['url'] + "', '" +  item['place'] + "', '" +  item['date'] + "', '" + item['racedata_updated_at'] + "');"
+        sentence = "INSERT INTO blogs_racelist (title, url, place, date, race_num, racedata_updated_at) VALUES " + "('" +  item['title'] + "', '" +  item['url'] + "', '" +  item['place'] + "', '" +  item['date'] + "', '" + item['race_num'] + "','" + item['racedata_updated_at'] + "');"
         print(sentence) 
 
         with psycopg2.connect(database_url) as conn:

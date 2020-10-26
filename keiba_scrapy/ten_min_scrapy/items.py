@@ -13,6 +13,7 @@ class Blogs_racelist(scrapy.Item):
     title = scrapy.Field()
     place = scrapy.Field()
     date = scrapy.Field()
+    race_num = scrapy.Field()
     racedata_updated_at = scrapy.Field()
 
 
