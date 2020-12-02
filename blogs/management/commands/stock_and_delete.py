@@ -6,7 +6,7 @@ from django.utils import timezone
 class Command(BaseCommand):
 	def handle(self, *args, **options):
 
-		 def rand_ints_nodup(a, b, k):
+		def rand_ints_nodup(a, b, k):
 			ns = []
 			while len(ns) < k:
 				n = random.randint(a, b)
